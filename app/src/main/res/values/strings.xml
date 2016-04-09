@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Rarely used words in Ukrainian</string>
     <string name="hello">Hello!</string>
+    <string name="abazhur"><p align="justify"><strong> АБАЖ<span class="stressed">У</span><span class="stress">́</span>Р</strong>, а, <i><span style="color:green"><abbr title="чоловічий рід">чол.</abbr></span></i> Дашок різної форми і з різного матеріалу на лампу (свічку і т. ін.) для захисту очей від світла або для зосередження світла в певному напрямі.<br /><i>Моя лампа під широким картоновим абажуром ділить хату на два поверхи — вгорі темний, похмурий, важкий; під ним — залитий світлом</i> <span style="color:gray">(Михайло Коцюбинський, I, 1955, 414)</span>; <i>На столику стояла свічка під абажуром</i> <span style="color:gray">(Семен Журахович, Вечір.., 1958, 235)</span>.<br /><small><a href="http://sum.in.ua/p/1/2/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 2.</a></small></p></string>
 </resources>
