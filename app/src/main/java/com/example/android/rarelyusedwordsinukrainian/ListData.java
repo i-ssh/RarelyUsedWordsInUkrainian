@@ -11,4 +11,9 @@ public class ListData {
         word = _word;
         meaning = _meaning;
     }
+
+    @Override
+    public String toString() {
+        return word;
+    }
 }
