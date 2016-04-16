@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
@@ -31,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         //Create an array of objects ListData and fill in data
         wordList = new ArrayList<ListData>();
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 120; i++) {
             wordList.add(new ListData(words[i - 1], meanings[i - 1]));
         }
 

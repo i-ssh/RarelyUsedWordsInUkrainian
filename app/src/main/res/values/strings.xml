@@ -1,61 +1,1802 @@
 <resources>
     <string name="app_name">Rarely used words in Ukrainian</string>
     <string name="hello">Hello!</string>
-    <string name="abazhur">
-        <![CDATA[
-
-        <p align="justify"><strong> АБАЖ<span class="stressed">У</span><span class="stress">́</span>Р</strong>, а, <i><span style="color:green"><abbr title="чоловічий рід">чол.</abbr></span></i> Дашок різної форми і з різного матеріалу на лампу (свічку і т. ін.) для захисту очей від світла або для зосередження світла в певному напрямі.<br /><i>Моя лампа під широким картоновим абажуром ділить хату на два поверхи — вгорі темний, похмурий, важкий; під ним — залитий світлом</i> <span style="color:gray">(Михайло Коцюбинський, I, 1955, 414)</span>; <i>На столику стояла свічка під абажуром</i> <span style="color:gray">(Семен Журахович, Вечір.., 1958, 235)</span>.<br /><small><a href="http://sum.in.ua/p/1/2/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 2.</a></small></p>
-
-        ]]>
-    </string>
+    <string-array name="rarely_used_words">
+        <item>АБИЩИЦЯ</item>
+        <item>АБУЛІЯ</item>
+        <item>АБШИТ</item>
+        <item>АВТОХТОН</item>
+        <item>АДЮЛЬТЕР</item>
+        <item>БАБАЙКА</item>
+        <item>БАБРАТИ</item>
+        <item>БАДДЯ</item>
+        <item>БАЙДА</item>
+        <item>БАЛАБОН</item>
+        <item>ВАБА</item>
+        <item>ВБИРАЧ</item>
+        <item>ВДРУЗК</item>
+        <item>ВДЯКА</item>
+        <item>ВЕЛЕЛЮДДЯ</item>
+        <item>ГАБІЛІТАЦІЯ</item>
+        <item>ГАВРА</item>
+        <item>ГАЇВКА</item>
+        <item>ГЕВАЛ</item>
+        <item>ГЕПАК</item>
+        <item>ҐАВА</item>
+        <item>ҐАВОЛОВ</item>
+        <item>ҐАЗДИНЯ</item>
+        <item>ҐАНОК</item>
+        <item>ҐЕДЗЬ</item>
+        <item>ДАЙНА</item>
+        <item>ДАННЯ</item>
+        <item>ДАРАБА</item>
+        <item>ДЕВОТКА</item>
+        <item>ДЕЙНЕКА</item>
+        <item>ЕВФЕМІЗМ</item>
+        <item>ЕГОТИЗМ</item>
+        <item>ЕКЗАЛЬТАЦІЯ</item>
+        <item>ЕНДЕМ</item>
+        <item>ЕНЕРВАЦІЯ</item>
+        <item>ЄВНУХ</item>
+        <item>ЄДВАБ</item>
+        <item>ЄДИНАК</item>
+        <item>ЄЗУЇТ</item>
+        <item>ЄПІТИМІЯ</item>
+        <item>ЖАЙВІР</item>
+        <item>ЖАК</item>
+        <item>ЖАСКИЙ</item>
+        <item>ЖВАВИЙ</item>
+        <item>ЖЕВЖИК</item>
+        <item>ЗАБАРА</item>
+        <item>ЗАБИВКА</item>
+        <item>ЗАБІЛКА</item>
+        <item>ЗАБІЯКА</item>
+        <item>ЗАБОРА </item>
+        <item>ІГРАШКАР</item>
+        <item>ІДОЛЯНИН</item>
+        <item>ІЛОТ</item>
+        <item>ІМЕННЯ</item>
+        <item>ІМЛА</item>
+        <item>ЇДАТИ</item>
+        <item>ЇДЕЦЬ</item>
+        <item>ЇДКІСТЬ</item>
+        <item>ЇДЛО</item>
+        <item>ЇДЬ</item>
+        <item>КАБАТ</item>
+        <item>КАВАЛОК</item>
+        <item>КАВЕРЗА</item>
+        <item>КАНАПА</item>
+        <item>КАТМА</item>
+        <item>ЛАЗНЯ</item>
+        <item>ЛАЙДАК</item>
+        <item>ЛАС</item>
+        <item>ЛАСОЩІ</item>
+        <item>ЛЕГЕЙДА</item>
+        <item>МАВКА</item>
+        <item>МАЙВО</item>
+        <item>МАМІЙ</item>
+        <item>МАРНОТА</item>
+        <item>МАРУДА</item>
+        <item>НАБРІД </item>
+        <item>НАБУТОК</item>
+        <item>НАВІД</item>
+        <item>ОБЕРЕМОК</item>
+        <item>ОБРІК</item>
+        <item>ОБРОК</item>
+        <item>ПАЙДА</item>
+        <item>ПАЛАМАР</item>
+        <item>ПАЛАНКА</item>
+        <item>РАТА</item>
+        <item>РАТИЦЯ</item>
+        <item>РАЦІЯ</item>
+        <item>САЙКА</item>
+        <item>САМОРУХ</item>
+        <item>СВАВІЛЛЯ</item>
+        <item>ТАЛАН</item>
+        <item>ТАРГАН</item>
+        <item>ТАРКАЧ</item>
+        <item>УБІР</item>
+        <item>УБРУС</item>
+        <item>УДІЛ</item>
+        <item>ФАБУЛА</item>
+        <item>ФАЙКА</item>
+        <item>ФАЛАТТЯ</item>
+        <item>ХАБАЗ</item>
+        <item>ХАЛУПНИК</item>
+        <item>ХАРЦИЗ</item>
+        <item>ЦВІКЕР</item>
+        <item>ЦЕРА</item>
+        <item>ЦЕРАТА</item>
+        <item>ЧАПРАК</item>
+        <item>ЧВАЛ</item>
+        <item>ЧЕКАН</item>
+        <item>ШАЛЬГА</item>
+        <item>ШАНЦІ</item>
+        <item>ШАПЛИК</item>
+        <item>ЩАБЕЛЬ</item>
+        <item>ЩАДНИЦЯ</item>
+        <item>ЩЕБЕТ</item>
+        <item>ЮБКА</item>
+        <item>ЮВІЛЯР</item>
+        <item>ЮГА</item>
+        <item>ЯБЕДА</item>
+        <item>ЯБЕДНИК</item>
+        <item>ЯВА</item>
+    </string-array>
 
     <string-array name="rarely_used_description">
+
         <item>
         <![CDATA[
-
-        <p align="justify"><strong> АБАЖ<span class="stressed">У</span><span class="stress">́</span>Р</strong>, а, <i><span style="color:green"><abbr title="чоловічий рід">чол.</abbr></span></i> Дашок різної форми і з різного матеріалу на лампу (свічку і т. ін.) для захисту очей від світла або для зосередження світла в певному напрямі.<br /><i>Моя лампа під широким картоновим абажуром ділить хату на два поверхи — вгорі темний, похмурий, важкий; під ним — залитий світлом</i> <span style="color:gray">(Михайло Коцюбинський, I, 1955, 414)</span>; <i>На столику стояла свічка під абажуром</i> <span style="color:gray">(Семен Журахович, Вечір.., 1958, 235)</span>.<br /><small><a href="http://sum.in.ua/p/1/2/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 2.</a></small></p>
-
+        <p align="justify">
+            <strong>АБ<span class="stressed">И</span><span class="stress">́</span>ЩИЦЯ</strong>, ~і,
+            <i><span style="color:green">жіночий рід, розмовне</span></i>.
+            Річ або справа, що не має ніякої цінності чи значення; дрібниця, дурниця.<br />
+            <i>Це така абищиця, що не варт і казати </i> <span style="color:gray">(Словник Грінченка)</span>;<br />
+            <i>Верхівнянські ліси не така вже абишиця </i> <span style="color:gray">(Натан Рибак, Помилка.., 1956, 41)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/3/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 3.</a></small>
+        </p>
         ]]>
         </item>
 
         <item>
         <![CDATA[
-
-            <p align="justify"><strong>АБ<span class="stressed">И</span><span class="stress">́</span>ЩИЦЯ</strong>, i, <i><span style="color:green"><abbr class="mark" title="жіночий рід">жін.</abbr></span></i>, <i><span style="color:green"><abbr class="mark" title="розмовне">розм.</abbr></span></i> Річ або справа, що не має ніякої цінності чи значення; дрібниця, дурниця.<br /><i>Це така абищиця, що не варт і казати</i> <span style="color:gray">(Словник Грінченка)</span>; <i>Верхівнянські ліси не така вже абишиця</i> <span style="color:gray">(Натан Рибак, Помилка.., 1956, 41)</span>.<br /><small><a href="http://sum.in.ua/p/1/3/2">&copy; Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 3.</a></small></p>
+        <p align="justify">
+            <strong>АБУЛ<span class="stressed">I</span><span class="stress">́</span>Я</strong>, ~ї,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Ослаблення волі внаслідок нервового захворювання або перевтоми; безвілля.<br />
+            <i>Коли внаслідок глибоких порушень вольової сфери розвивається стан «абулії», тобто хворобливого безвілля, в людини може «не вистачити волі» навіть на те, щоб узяти з столу потрібну їй річ </i> <span style="color:gray">(Борис Теплов, Психологія. Підручник для середньої школи, 1956, 168)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/7/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 7.</a></small>
+        </p>
         ]]>
         </item>
 
         <item>
         <![CDATA[
-
-        <p align="justify"><strong> АБСЕНТЕ<span class="stressed">Ї</span><span class="stress">́</span>ЗМ</strong>, у, <i><span style="color:green"><abbr title="чоловічий рід">чол.</abbr></span></i> В ідеалістичній філософії — вічна, незмінна, нескінченна першооснова Всесвіту (дух, ідея); у релігії — бог.<br /><i>Що-небудь самодостатнє, безвідносне, нічим не обумовлене. На противагу дрібнобуржуазним демократам, Маркс бачив в усіх без винятку демократичних вимогах не абсолют, а історичний вираз боротьби керованих буржуазією народних мас проти феодалізму</i> <span style="color:gray">(Ленін, 22, 1950, 133)</span>. <br /><small><a href="http://sum.in.ua/p/1/5/2">&copy; Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 5.</a></small></p>
-
+        <p align="justify">
+            <strong>АБШ<span class="stressed">И</span><span class="stress">́</span>Т</strong>, ~у,
+            <i><span style="color:green">чоловічий рід, застаріле</span></i>.
+            Відставка, звільнення зі служби.<br />
+            <i>Абшит дістав </i> <span style="color:gray">(Галицько-руські народні приповідки, I, 1901-1905, 1)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/7/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 7.</a></small>
+        </p>
         ]]>
         </item>
 
         <item>
         <![CDATA[
-
-        <p align="justify"><strong>АБСОЛ<span class="stressed">Ю</span><span class="stress">́</span>Т</strong>, у, <i><span style="color:green"><abbr title="чоловічий рід">чол.</abbr></span></i> У буржуазних країнах — масове ухиляння від участі у виборах, а також систематична відсутність на засіданнях членів колегіальних органів.<br /><i>Ми тепер «сидимо по вуха» у виборах [до IV Державної думи]. Абсентеїзм страшенно великий. По робітничій курії теж. Але обрані все ж скрізь соціал-демократи</i> <span style="color:gray">(Ленін, 35, 1952, 33)</span>.  <br /><small><a href="http://sum.in.ua/p/1/5/2">&copy; Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 5.</a></small></p>\n
-
+        <p align="justify">
+            <strong>АВТОХТ<span class="stressed">О</span><span class="stress">́</span>Н</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, книжне</span></i>.
+            Корінний житель країни або місцевості; абориген, тубілець.<br />
+            <small><a href="http://sum.in.ua/p/1/15/1">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 15.</a></small>
+        </p>
         ]]>
         </item>
 
         <item>
         <![CDATA[
-
-        <p align="justify"><strong> АБСТРАГУВ<span class="stressed">А</span><span class="stress">́</span>ТИСЯ</strong>, уюся, уєшся,  <i><span style="color:green"><abbr title="недоконаний вид">недок.</abbr></span></i> i <i><span style="color:green"><abbr title="доконаний вид">док.</abbr></span></i>Уявно (в думках) відриватися від тих чи інших сторін, властивостей або зв\'язків предметів і явищ.<br /><i>Коли абстрагуватися від споживної вартості товарних тіл, то у них лишається тільки одна властивість, а саме та, що вони — продукти праці</i> <span style="color:gray">(Карл Маркс, Капітал, т. І, кн. І, 1952, 44)</span>; <i>Наука логіка, досліджуючи логічні форми, абстрагується від конкретного змісту тієї чи іншої думки</i> <span style="color:gray">(Логіка, 1953, 4)</span>.<br /><small><a href="http://sum.in.ua/p/1/6/2">&copy; Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 6.</a></small></p>
-
+        <p align="justify">
+            <strong>АДЮЛЬТ<span class="stressed">Е</span><span class="stress">́</span>Р</strong>, ~у,
+            <i><span style="color:green">чоловічий рід, застаріле</span></i>.
+            Подружня невірність.<br />
+            <i>[Любов:] Ви забуваєте ще другу любов поетів, наприклад, любов Данте до Беатріче.. [Милевський:] Ну, знаєте, Любов Олександрівно.. У трубадурів часом трудно одрізнити блакитну квітку від адюльтера </i> <span style="color:gray">(Леся Українка, II, 1951, 24)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/22/1">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 22.</a></small>
+        </p>
         ]]>
         </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>БАБ<span class="stressed">А</span><span class="stress">́</span>ЙКА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Велике весло, прикріплене до човна.<br />
+            <i>Рибалки вдарили по воді плиском бабайками, і здоровий човен полинув по лимані, неначе птиця по небу </i> <span style="color:gray">(Нечуй-Левицький, II, 1956, 225)</span>;<br />
+            <i>Кожен поспішив стати на своє місце: хто біля якорів, хто біля довгих бабайок </i> <span style="color:gray">(Яків Баш, Вибр., 1948, 3)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/75/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 75.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Б<span class="stressed">А</span><span class="stress">́</span>БРАТИ</strong>, ~аю, ~аєш,
+            <i><span style="color:green">недоконаний вид, перехідне дієслово і без додатка, рідковживане</span></i>.<br />
+            1. Бруднити, мазати.<br />
+            <i>Не бабрай руками! </i> <span style="color:gray">(Словник Грінченка)</span>.<br />
+            2. Перебирати, перекидати що-небудь, порушуючи лад, порядок у чомусь.<br />
+            <i>Оленко, полізь, доню, в погріб та відерце картоплі витягни. Та бери скраю, підряд не бабрай усієї... </i> <span style="color:gray">(Василь Кучер, Трудна любов, 1960, 277)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/77/1">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 77.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>БАДД<span class="stressed">Я</span><span class="stress">́</span></strong>, ~і,
+            <i><span style="color:green">жіночий рід, рідковживане</span></i>.<br />
+            1. Велике цебро.<br />
+            <i>Тягне він [хлопець] здорову, важку баддю, повну води, а в очах аж позеленіє від великої натуги... </i> <span style="color:gray">(Михайло Коцюбинський, I, 1955, 22)</span>.<br />
+            2. Посудина для витягання руди або землі з шахти; цебер.<br />
+            <i>З вишки у шахту раз по раз спускалася баддя, яка виносила на поверхню вапнякуватий ґрунт впереміш з камінням </i> <span style="color:gray">(Василь Минко, Вибр., 1952, 417)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/86/1">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 86.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Б<span class="stressed">А</span><span class="stress">́</span>ЙДА</strong>, ~и,
+            <i><span style="color:green">рідковживане</span></i>.<br />
+            1. <i><span style="color:green">чоловічий і жіночий рід</span></i>. Безтурботна, гуляща людина, гульвіса. <br />
+            <i>Всім до мене байдам байдуже. </i> <span style="color:gray">(Микола Бажан, I, 1946, 101)</span>.<br />
+            ♦ Байди бити — те саме, що Байдики бити.
+            <i>— Ішов би, ледарю, робити, а не байди бити </i> <span style="color:gray">(Українські народні прислів\'я та приказки, 1955, 392)</span>.<br />
+            2. <i><span style="color:green">тільки жіночий рід, діалектне</span></i>. Шматок чого-небудь ламкого або крихкого (хліба, цукру, дерева).<br />
+            <i>Галаган маю в хустині зав\'язаний, булок повні пазухи та й цукри добрії байду </i> <span style="color:gray">(Василь Стефаник, III, 1954, 41)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/89/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 89.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>БАЛАБ<span class="stressed">О</span><span class="stress">́</span>Н</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, діалектне</span></i>.
+            Брязкальце, бубонець.<br />
+            <i>І грали балагульські балабони, І машталір хитавсь на передку </i> <span style="color:gray">(Максим Рильський, I, 1956, 203)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/93/1">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 93.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>В<span class="stressed">А</span><span class="stress">́</span>БА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.<br />
+            1. <i><span style="color:green">розмовне</span></i>. Те саме, що принадність.<br />
+            <i>Лотос повен таїн між латаття в прозорім ставку, — А в твоїх таїнах більше ваб, і жаги, і дурману! </i> <span style="color:gray">(Михайло Старицький, Поет. тв., 1958, 147)</span>.<br />
+            <i>Кряжуватий [гетьман] на стать; Ваби марно питать, — Мов татарин самісінько чорний </i> <span style="color:gray">(Павло Грабовський, I, 1959, 296)</span>.<br />
+            <i>Очерети по Удаю — мов дикий праліс, і в буйності цій, і хаотичності — їх дика ваба і краса </i> <span style="color:gray">(Юрій Мушкетик, Серце.., 1962, 82)</span>.<br />
+            2. <i><span style="color:green">мисливство</span></i>. Принада.<br />
+            <small><a href="http://sum.in.ua/p/1/273/1">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 273.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ВБИР<span class="stressed">А</span><span class="stress">́</span>Ч</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, фізика</span></i>.
+            Речовина, що має здатність вбирати в себе вологу, рідину, пару і т. ін.<br />
+            <small><a href="http://sum.in.ua/p/1/301/1">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 301.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ВДР<span class="stressed">У</span><span class="stress">́</span>ЗК, ВДР<span class="stressed">У</span><span class="stress">́</span>ЗКИ</strong>,
+            <i><span style="color:green">прислівник, рідковживане</span></i>.<br />
+            На дрібні шматки (розбитися, розвалитися і т. ін.).<br />
+            <i>Я раптом побачив, як моя будова.. позбулася цементу, репнула від стелі до підмурівку і розсипалась вдрузк </i> <span style="color:gray">(Леся Українка, IV, 1954, 271)</span>.<br />
+            <i>Бочка розсипалась вдрузки </i> <span style="color:gray">(Іван Сенченко, Опов., 1959, 366)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/313/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 313.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ВД<span class="stressed">Я</span><span class="stress">́</span>КА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.<br />
+            Вдячність. <br />
+            <i>Приймім достойно вдяку чи невдяку, працюючи, в майбутнє зір звертаймо! </i> <span style="color:gray">(Уляна Кравченко, Вибр., 1958, 167)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/314/2">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 314.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ВЕЛЕЛ<span class="stressed">Ю</span><span class="stress">́</span>ДДЯ</strong>, ~я,
+            <i><span style="color:green">середній рід</span></i>.
+            Скупчення великої кількості людей.<br />
+            <i>— Як-то нема? — заремствували, загомоніли на велелюдді селяни </i> <span style="color:gray">(Михайло Стельмах, Хліб.., 1959, 378)</span>.<br />
+            <small><a href="http://sum.in.ua/p/1/317/1">© Словник української мови: в 11 томах. — Том 1, 1970. — Стор. 317.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ГАБІЛІТ<span class="stressed">А</span><span class="stress">́</span>ЦІЯ</strong>, ~ї,
+            <i><span style="color:green">жіночий рід, західноукраїнське</span></i>.<br />
+            Складання іспиту, що дає право викладати в університеті.<br />
+            <i>І. Франко обрав тему «Наймичка» Шевченка для габілітації.. у Львівському університеті в 1895 р. </i> <span style="color:gray">(Життя і творчість Т. Г. Шевченка, 1959, 203)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/83/1">© Словник української мови: в 11 томах. — Том 2, 1970. — Стор. 8.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Г<span class="stressed">А</span><span class="stress">́</span>ВРА</strong>, ~а,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.<br />
+            1. Лігво звіра; барліг.<br />
+            <i>В лісах.. медведі ссали лапи в своїх гаврах і дрімали зимовим сном </i> <span style="color:gray">(Іван Франко, VIII, 1952, 38)</span>;<br />
+            *Образно.
+            <i>То наймався [Юрчик] на найтяжчу роботу, гори перевертав, то півзими лежав у якій-небудь гаврі, у ведмежім барлозі, смокчучи свою нерозлучну віковічну люльку </i> <span style="color:gray">(Гнат Хоткевич, II, 1966, 152)</span>.<br />
+            2. <i><span style="color:green">переносне значення, зневажливе слово, вираз</span></i>. Рот.<br />
+            <i> — Ци [чи] не стулиш ти си гавру? — крикнув нараз Василь </i> <span style="color:gray">(Іван Франко, I, 1955, 145)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/9/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 9.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ГА<span class="stressed">Ї</span><span class="stress">́</span>ВКА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, західноукраїнське</span></i>.<br />
+            Українська народна обрядова пісня; веснянка. <br />
+            <i>Колядки, щедрівки, веснянки, гаївки, далі обжинкові пісні, пісні весільні.. — це форми музичної творчості народу українського </i> <span style="color:gray">(Історія української музики, 1922, 52)</span>;<br />
+            <i>Своїм ліризмом і гумором рогуленьки споріднені з наддніпрянськими веснянками і галицькими гаївками </i> <span style="color:gray">(Народна творчість та етнографія, 2, 1961, 144)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/15/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 15.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ГЕВ<span class="stressed">А</span><span class="stress">́</span>Л</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, фамільярне</span></i>.
+             Велика неповоротка, незграбна людина.<br />
+            <i>Щирі дитячі сльози чотирнадцятирічного гевала чимало розважали обозників </i> <span style="color:gray">(Юрій Яновський, I, 1958, 519)</span>;<br />
+            <i>В уяві склався образ здоровенного гевала, грубого і самозакоханого </i> <span style="color:gray">(Вадим Собко, Звич. життя, 1957, 49)</span>;<br />
+            <i><span style="color:green">застаріле</span></i>. Груба некультурна людина.
+            <i>З виду й з одежі [чоловік] не гевал, не бурлака, а щось не просте </i> <span style="color:gray">(Олекса Стороженко, I, 1957, 334)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/45/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 45.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ГЕП<span class="stressed">А</span><span class="stress">́</span>К</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, діалектне</span></i>.
+            Стусан.<br />
+            <i>— Ну, дістала ж уже вона за те від свого тата добрих гепаків у плечі </i> <span style="color:gray">(Ольга Кобилянська. II, 1956, 47)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/53/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 53.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ґ<span class="stressed">А</span><span class="stress">́</span>ВА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.<br />
+            1. Те саме, що ворона.<br />
+            <i>Знайшовсь Осел - мастак — Його й найняв [хазяїн] левади доглядати, Проклятих горобців та ґав ганяти </i> <span style="color:gray">(Леонід Глібов, Вибр., 1957, 106)</span>;<br />
+            <i>Ворона, або, як її ще називають, — ґава.. дуже хитрий і обережний шкідник </i> <span style="color:gray">(ІКорисні птахи України.., 1950, 75)</span>;<br />
+            *У порівняннях. <i>Нарядилася, як пава, а кричить, як ґава </i> <span style="color:gray">(Українські народні прислів\'я та приказки, 1955, 180)</span>.<br />
+            2. <i><span style="color:green">переносне значення, зневажливе слово, вираз</span></i>.
+            Неуважна, нерозторопна людина; роззява. <i>[Аделя:] Ну, не впущу я цього студента, як та ґава Наталка </i> <span style="color:gray">(ПЄвген Кротевич, Вибр., 1959, 503)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/8/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 8.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ґ<span class="stressed">А</span><span class="stress">́</span>ВОЛОВ</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, зневажливе слово, вираз</span></i>.
+            Про людину, яка ходить без діла, байдикує.<br />
+            <i>Відповідала [Лукія] покупцям і ґаволовам,.. спокійно вкидала в хряпкий глечик одержані гроші </i> <span style="color:gray">(Олександр Ільченко, Козацьк. роду.., 1958, 180)</span>.<br />
+
+            <small><a href="http://sum.in.ua/p/2/9/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 9.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ҐАЗД<span class="stressed">И</span><span class="stress">́</span>НЯ</strong>, ~і,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.
+            Господарка.<br />
+            <i>Зоя Жмут добра ґаздиня, пари в селі їй не було </i> <span style="color:gray">(Ольга Кобилянська, III, 1956, 466)</span>;<br />
+            <i>Радянська гуцулка — справжня ґаздиня своєї колись поневоленої землі, своєї країни </i> <span style="color:gray">(Остап Вишня, II, 1956, 32)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/12/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 12.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ґ<span class="stressed">А</span><span class="stress">́</span>НОК</strong>, ~нку,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            Прибудова з площадкою і східцями, а подекуди з покрівлею біля входу в будинок.<br />
+            <i>Сіни були невеликі і вели з одного боку на довгий, теребовельськими плитами мощений ґанок </i> <span style="color:gray">(Іван Франко, I, 1955, 272)</span>;<br />
+            <i>Різьба прикрашала [в західних областях України] і частини житлових та господарських будівель — головну балку стелі хати (сволок), дверні та віконні наличники, ґанок </i> <span style="color:gray">(Народна творчість та етнографія, 4, 1958, 67)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/26/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 26.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ґ<span class="stressed">Е</span><span class="stress">́</span>ДЗЬ</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            Велика муха, що живиться кров\'ю тварин і соком рослин.<br />
+            <i>Задерихвіст почав і справді ґедзкатись: пішов такого тропака, наче й справді його ґедзі кусали і в спину, і в п\'яти, і в підошви </i> <span style="color:gray">(Нечуй-Левицький, II, 1956, 232)</span>;<br />
+            <i>Скотину нападе ґедзь, корови біжать у жито одганяти злу муху </i> <span style="color:gray">(Костянтин Гордієнко, II, 1959, 134)</span>.<br />
+            *У порівняннях. <i>Кілька млинків, крутячись на вітрі, весело деренчали, гули, лопотіли й дзижчали, як ґедзі </i> <span style="color:gray">(Олесь Донченко, IV, 1957, 71)</span>;<br />
+            <i>— Лізеш з уловом, як ґедзь до коняки, — роздратовано відмахнувся Причепа </i> <span style="color:gray">(Зінаїда Тулуб, Людолови, II, 1957, 142)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/46/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 46.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Д<span class="stressed">А</span><span class="stress">́</span>ЙНА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</i>.<br />
+            Назва різних видів литовських народних пісень.<br />
+            <i>Море грає, котить хвилі білі, П\'ять рибалок молодих з артілі Вічну дайну на зорі співають, Горе Мілди до сердець приймають </i> <span style="color:gray">(Ярослав Шпорта, Вибр., 1958, 299)</span>;<br />
+            <i>Його [К. Донелайтіса] устами народ висловив те, що раніше вкладав у різні скульптури, в ручної роботи тканини.., в чудові ліричні пісні — дайни, в казки, пройняті великою мрією </i> <span style="color:gray">(Радянська Україна, 9.I 1964, 3)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/677/2">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 677.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ДАНН<span class="stressed">Я</span><span class="stress">́</span></strong>, ~я,
+            <i><span style="color:green">середній рід, етнографія, застаріле</span></i>.<br />
+            1. Знахарський напій, який нібито впливає на поведінку людини, приворожує або відвертає кого-небудь і т. ін.; чари.<br />
+            <i>[Микола:] Се він, проклятий, дав їй якісь чари, якесь дання, він її з розуму звів, щоб насміятися наді мною! </i> <span style="color:gray">(Іван Франко, IX, 1952, 132)</span>;<br />
+            <i>Вона з кожним разом ставала перед очима ще милішою і кращою.. Раз навіть задумався [Левко], чи не було йому дадено [дане] якесь дання? </i> <span style="color:gray">(Михайло Стельмах, Хліб.., 1959, 546)</span>.<br />
+            2. Отрута, дана з напоєм або стравою.<br />
+            <i>Нінетта.. випрохала в неї [знахарки] смертельного дання, яким не довго думавши напоїла ввечері Рестаньйона </i> <span style="color:gray">(Боккаччо, Декамерон, перекл. Лукаша, 1964, 267)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/211/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 211.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ДАР<span class="stressed">А</span><span class="stress">́</span>БА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.<br />
+            Пліт, збитий із дерев\'яних кругляків. <br />
+            <i>На дарабі, як звичайно, діти: Бігають, з дараби в воду скачуть </i> <span style="color:gray">(Іван Франко, XIII, 1954, 336)</span>;<br />
+            <i>— Я часто буваю серед гуцулів, прислухаюсь до думок лісорубів, керманичів на дарабах, колгоспників з Верховини </i> <span style="color:gray">(Радянська Україна, 22.I 1959, 2)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/211/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 211.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ДЕВ<span class="stressed">О</span><span class="stress">́</span>ТКА</strong>, ~и,
+            <i><span style="color:green">чоловічий і жіночий рід, діалектне</span></i>.
+             Святенник, святенниця.<br />
+            <i>[Євгеніїй:] Ге, ге, до єзуїтів се брехати! Девоток сим лякать! </i> <span style="color:gray">(Іван Франко, XI, 1952, 250)</span>;<br />
+            <i>То ж він [Мефістофель] — замучений уявою маньяк, — В гурті розпутників, поетів і кривляк Сидить з лицем диявола й девотки </i> <span style="color:gray">(Микола Бажан, Вибр., 1940, 65)</span>;<br />
+            <small><a href="http://sum.in.ua/p/2/229/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 229.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ДЕЙН<span class="stressed">Е</span><span class="stress">́</span>КА</strong>, ~и,
+            <i><span style="color:green">чоловічий рід, історія</span></i>.
+            У другій половині XVII ст. — селянин, озброєний дрючком, довбнею, рогатиною або іншим народним знаряддям, що брав участь у повстанні на Лівобережній Україні.<br />
+            <i>Особливо активно діяли загони дейнек на Полтавщині </i> <span style="color:gray">(Історія УРСР, І, 1953, 277)</span>;<br />
+            <i>Іван Голота вже стоїть В уборі вбогого дейнеки Лише рогатина в руках, Лише при поясі сокира </i> <span style="color:gray">(Максим Рильський, II, 1946, 52)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/232/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 232.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЕВФЕМ<span class="stressed">І</span><span class="stress">́</span>ЗМ</strong>, ~у,
+            <i><span style="color:green">чоловічий рід</i>.
+            Слово чи вираз, яким замінюють у мові грубе, непристойне, з неприємним емоціональним забарвленням слово; Заміна грубих, непристойних, неприємних і т. ін. слів іншими словами.<br />
+            <i>Користуємось синонімами.. у випадках так званого евфемізму.., тобто для заміни слів з неприємним змістом або забарвленням іншими словами, які не викликають грубих, неприємних і неприйнятних уявлень і почувань </i> <span style="color:gray">(Курс сучасної української літературної мови, I, 1951, 61)</span>;<br />
+            <small><a href="http://sum.in.ua/p/2/453/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 453.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЕГОТ<span class="stressed">И</span><span class="stress">́</span>ЗМ</strong>, ~у,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            Переоцінення своїх позитивних якостей; самозакоханість.<br />
+            <small><a href="http://sum.in.ua/p/2/454/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 454.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЕКЗАЛЬТ<span class="stressed">А</span><span class="stress">́</span>ЦІЯ</strong>, ~ї,
+            <i><span style="color:green">жіночий рід, книжне</span></i>.
+            Надмірне захоплення чимось, збудження під впливом чого-небудь. <br />
+            <i>Інколи ж його просто ґедзь нападав — і тоді він ставав нестерпучим: пускав Раїсі шпильки, глузував з її екзальтації </i> <span style="color:gray">(Михайло Коцюбинський, I, 1955, 330)</span>;<br />
+            <i>Молитовна екзальтація розслабила його вкрай, зігнула згорбила </i> <span style="color:gray">(Іван Ле, Наливайко, 1957, 216)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/455/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 455.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЕНД<span class="stressed">Е</span><span class="stress">́</span>М</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            Рослина або тварина, поширена тільки в певній місцевості.<br />
+            <i>Особливо цікаво те, що тут [у Стрілецькому степу] багато так званих ендемічних рослин — таких, що ростуть лише в цьому місці. Вивчення ендемів має велике значення для розуміння походження рослинних видів </i> <span style="color:gray">(Наука і життя, 5, 1967, 10)</span>;<br />
+            <small><a href="http://sum.in.ua/p/2/479/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 479.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЕНЕРВ<span class="stressed">А</span><span class="stress">́</span>ЦІЯ</strong>, ~ї,
+            <i><span style="color:green">жіночий рід, медицина</span></i>.
+            Нервове виснаження.<br />
+            <small><a href="http://sum.in.ua/p/2/480/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 480.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong><span class="stressed">Є</span><span class="stress">́</span>ВНУХ</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</i>.
+            Кастрований слуга-наглядач за жінками гарему.<br />
+            <i>Євнух ходить з ключами. Жінки Юсуфа зачіпають, смикають євнуха </i> <span style="color:gray">(Нечуй-Левицький, II, 1956, 446)</span>;<br />
+            <i>Безбороді євнухи почали одягати імператорів... </i> <span style="color:gray">(Семен Скляренко, Святослав, 1959, 147)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/494/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 494.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЄДВ<span class="stressed">А</span><span class="stress">́</span>Б</strong>, ~у,
+            <i><span style="color:green">чоловічий рід, застаріле</span></i>.
+            Сорт коштовної шовкової тканини.<br />
+            <i>Нарядили Федора, мов того полковника з Січі: чоботи нові — жовтинці, штани широкі — оксамитні, каптан із синього єдвабу </i> <span style="color:gray">(Панас Мирний, IV, 1955, 225)</span>;<br />
+            <i>Араби.. розкладали на дерев\'яному помості різнокольоровий єдваб </i> <span style="color:gray">(Вітчизна, 4, 1947, 117)</span>;<br />
+            Вироби з цієї тканини. <i>Далі за столами.. міститься панство вельможне: убране в саєти, єдваби </i> <span style="color:gray">(Михайло Старицький, Облога.., 1961, 24)</span>;<br />
+            *Образно, <i>Вдяглись в шовки й єдваби ниви. Війни неначе й не було </i> <span style="color:gray">(Микола Чернявський, Поезії, 1959, 384)</span>;<br />
+            *У порівняннях, <i>Мову стеле [Лідія] рівно, як єдваб... </i> <span style="color:gray">(Максим Рильський, II, 1956, 21)</span>;<br />
+            <small><a href="http://sum.in.ua/p/2/495/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 495.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЄДИН<span class="stressed">А</span><span class="stress">́</span>К</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, діалектне</span></i>.
+            Одинак. <br />
+            <i>Вони втішалися одним живим сином, єдинаком Якимцьом </i> <span style="color:gray">(Нечуй-Левицький, I, 1956, 173, I, 1955, 330)</span>;<br />
+            <small><a href="http://sum.in.ua/p/2/495/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 495.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЄЗУ<span class="stressed">Ї</span><span class="stress">́</span>Т</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.<br />
+            1. Член католицького чернечого ордену «Товариство Ісуса», що є найреакційнішою і найвойовничішою організацією католицької церкви.<br />
+            <i>З\'явившись для боротьби з протестантами у 1564 р., єзуїти ретельно взялись за підвищення рівня релігійного життя у Польщі </i> <span style="color:gray">(О. І. Білецький, Від давнини до сучасності, I, 1960, 154)</span>;<br />
+            2. <i><span style="color:green">переносне значення</span></i>. Про підступну, підлу, лицемірну людину.<br />
+            <small><a href="http://sum.in.ua/p/2/497/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 497.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЄПІТ<span class="stressed">И</span><span class="stress">́</span>МІЯ</strong>, ~ї,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Церковне покарання, що полягає в суворому дотримуванні посту, довгих молитвах, посилених поклонах і т. ін.<br />
+            <small><a href="http://sum.in.ua/p/2/498/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 498.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ж<span class="stressed">А</span><span class="stress">́</span>ЙВІР</strong>, ~вора,
+            <i><span style="color:green">чоловічий рід, рідковживане</i>.
+            Те саме, що жайворонок.<br />
+            <i>Перший проліс розплющив око, Перший жайвір у вись злетів </i> <span style="color:gray">(Андрій Малишко, За.. морем, 1950, 175)</span>;<br />
+            У порівняннях, <i>Чистий дівочий голос то підносився вгору і, як жайвір, тріпотів крилами у височині, то стрімголов падав униз </i> <span style="color:gray">(Олесь Донченко, III, 1956, 100)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/502/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 502.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ж<span class="stressed">А</span><span class="stress">́</span>К</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.<br />
+            1. Рибальська снасть у вигляді натягнутої на декілька обручів конусоподібної сітки.<br />
+            <i>На вербі сіті рибальські порозвішувано, і жаки, і ятери </i> <span style="color:gray">(Остап Вишня, II, 1956, 369)</span>;<br />
+            <i>[Зоря:] Коли у вас, товаришу письменник, більше немає питань, то ми поїдемо жаки трусити </i> <span style="color:gray">(Олександр Корнійчук, II, 1955, 215)</span>.<br />
+            ♦ Битий жак — про бувалу, з досвідом людину.<br />
+            <i>Шавкун — битий жак! Недаром він посивів, сидячи над бумагами </i> <span style="color:gray">(Панас Мирний, II, 1954, 274)</span>;<br />
+            2. <i><span style="color:green">ентомологія</span></i> (Tabanus bovinus, L.). Велика двокрила муха, комаха, самка якої живиться кров\'ю тварин і соком рослин.<br />
+            <small><a href="http://sum.in.ua/p/2/503/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 503.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЖАСК<span class="stressed">И</span><span class="stress">́</span>Й</strong>, ~а,
+            <i><span style="color:green">рідковживане</span></i>.<br />
+            Який викликає, наводить страх; страшний.<br />
+            <i>Люди бояться вночі кладовища, жаских казок і непевних примар </i> <span style="color:gray">(Леся Українка, I, 1951, 249)</span>;<br />
+            <small><a href="http://sum.in.ua/p/2/512/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 512.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЖВ<span class="stressed">А</span><span class="stress">́</span>ВИЙ</strong>, ~а, ~е,<br />
+            1. Повний життєвої сили, енергії, з швидкими, легкими рухами; рухливий.<br />
+            <i>Жвавий, як рибка в річці </i> <span style="color:gray">(Українські народні прислів\'я та приказки, 1955, 299)</span>;<br />
+            <i>А надто той рибалонька, жвавий, кучерявий, Мліс, в\'яне, як зостріне Ганнусю чорняву </i> <span style="color:gray">(Тарас Шевченко, I, 1951, 165)</span>;<br />
+            <i>На узгір\'ї паслась коза з двома жвавими козенятами </i> <span style="color:gray">(Анатолій Шиян, Баланда, 1957, 74)</span>;<br />
+            *Образно, <i>З-за верхів далеких гір вискочили круглі хмари, білі, як срібло, жваві, ворушливі, мов живе срібло </i> <span style="color:gray">(Нечуй-Левицький, II, 1956, 389)</span>;<br />
+            Який часто змінює свій вираз (про очі, обличчя). <i>Жваві карі очі його так і замиготіли, як живе срібло </i> <span style="color:gray">(Нечуй-Левицький, III, 1956, 329)</span>.<br />
+            <i>Його жваве, рухливе обличчя виражало подив і навіть іронію </i> <span style="color:gray">(Семен Журахович, Вечір.., 1958, 162)</span>;<br />
+            2. <i><span style="color:green">переносне</span></i>. Який виконується, відбувається енергійно, у пришвидшеному темпі.
+            <i>Вітер доносив звідти уривки жвавої коломийки </i> <span style="color:gray">(Михайло Коцюбинський, I, 1955, 188)</span>;<br />
+            <i>Зав\'язалась жвава, цікава розмова </i> <span style="color:gray">(Олесь Донченко, VI, 1957, 635)</span>;<br />
+            <i>З самого ранку в магазинах почалася жвава торгівля </i> <span style="color:gray">(Радянська Україна, 3.III 1949, 2)</span>;<br />
+            Який інтенсивно проявляється. <i>Гості проявляли жвавий інтерес до творчості українських радянських письменників </i> <span style="color:gray">(Літературна газета, 30.VI 1949, 2)</span>;<br />
+            <i>Люда бачила, що її думка знайшла жвавий відгук у комсомольців </i> <span style="color:gray">(Олесь Донченко, I, 1956, 509)</span>.<br />
+            <small><a href="http://sum.in.ua/p/2/515/1">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 515.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ж<span class="stressed">Е</span><span class="stress">́</span>ВЖИК</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, розмовне</span></i>.<br />
+            1. Вертлява, рухлива людина легковажної вдачі, що любить похизуватися; фат, ферт, фертик.<br />
+            <i>— Як це «досить»? — запротестував рожевощокий і червоногубий жевжик з напомаженим до блиску волоссям </i> <span style="color:gray">(Олесь Донченко, V, 1957, 368)</span>;<br />
+            <i>Біля кількох лавок цілими гуртками щебетали дівчата, оточені якимись жевжиками в маленьких сплющених кепочках </i> <span style="color:gray">(Олесь Гончар Дорога.., 1953, 30)</span>;<br />
+            2. <i><span style="color:green">рідковживане</span></i>. Те саме, що горобець.
+            <i>Ох! поти жевжики вчащали, Поки всі ягоди на Вишні обдзюбали — Тепер до бідної ніколи не летять </i> <span style="color:gray">(Євген Гребінка, I, 1957, 51)</span>;<br />
+            <small><a href="http://sum.in.ua/p/2/517/2">© Словник української мови: в 11 томах. — Том 2, 1971. — Стор. 517.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>З<span class="stressed">А</span><span class="stress">́</span>БАРА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, застаріле</i>.
+            Затримка.<br />
+            <i>[Лянцкоронський:] Всяка ж забара дасть Богуну змогу стягти потуги, скріпитися силою </i> <span style="color:gray">(Михайло Старицький, Облога.., 1961, 29)</span>.<br />
+            <small><a href="http://sum.in.ua/p/3/16/1">© Словник української мови: в 11 томах. — Том 3, 1972. — Стор. 16.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЗАБ<span class="stressed">И</span><span class="stress">́</span>ВКА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Те, чим забивають отвір.<br />
+            <i>Цей кисень застосовувався тоді, коли важко відкрити отвір для випуску металу з мартена, і тоді забивку доводиться просто пропалювати киснем </i> <span style="color:gray">(Вадим Собко, Біле полум\'я, 1952, 257)</span>;<br />
+            <i>Під глиняною обмазкою черені виявлена забивка з уламків кераміки </i> <span style="color:gray">(Археологія, IX, 1954, 8)</span>.<br />
+            <small><a href="http://sum.in.ua/p/3/20/1">© Словник української мови: в 11 томах. — Том 3, 1972. — Стор. 20.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>З<span class="stressed">А</span><span class="stress">́</span>БІЛКА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Сметана або молоко як приправа до рідкої страви.<br />
+            <small><a href="http://sum.in.ua/p/3/23/1">© Словник української мови: в 11 томах. — Том 3, 1972. — Стор. 23.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЗАБІ<span class="stressed">Я</span><span class="stress">́</span>КА</strong>, ~и,<br />
+            1. <i><span style="color:green">чоловічий і жіночий рід</span></i>. Той (та), хто заводить, починає бійку, любить битися.
+            <i>— Я був тоді найгірший забіяка в селі і найліпший керманич на весь Черемош </i> <span style="color:gray">(Іван Франко, IV, 1950, 387)</span>;<br />
+            <i>Влетів у двір відомий всім забіяка Сивенко; він ще коло хвіртки зняв і кинув під паркан свитку, поплював у руки й полетів у той бік, де борюкалися між собою скілька душ школярів </i> <span style="color:gray">(Степан Васильченко, I, 1959, 149)</span>;<br />
+            2. <i><span style="color:green">чоловічий рід, застаріле</span></i>. Убивця, розбійник.<br />
+            <i>Ти.. волоцюга, забіяка, злий катюга, нічого о собі не дбаєш, о розбою помишляєш </i> <span style="color:gray">(Павло Чубинський, V, 1874, 233)</span>;<br />
+            <small><a href="http://sum.in.ua/p/3/23/2">© Словник української мови: в 11 томах. — Том 3, 1972. — Стор. 23.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЗАБ<span class="stressed">О</span><span class="stress">́</span>РА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Ряд, пасмо каменів, які перетинають річище поперек течії (але не через усе русло); перекат.<br />
+            <i>Карпо знав добре всі пороги, всі забори, знав кожний камінь </i> <span style="color:gray">(Словник Грінченка)</span>;<br />
+            <i>Пливуть чайки... Попереду Отаман пильнує, А позаду товариство Веслами керує; По порогах, по заборах Добре накупались </i> <span style="color:gray">(Данило Мордовець, I, 1958, 508)</span>;<br />
+            <i>Незвичайна картина постала перед очима.. Одні [потоки], вируючи, пінилися в кам\'яних заборах, інші змійками звивалися між камінців </i> <span style="color:gray">(Гордій Коцюба, Нові береги, 1959, 383)</span>.<br />
+            <small><a href="http://sum.in.ua/p/3/26/1">© Словник української мови: в 11 томах. — Том 3, 1972. — Стор. 26.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ІГРАШК<span class="stressed">А</span><span class="stress">́</span>Р</strong>, ~я,
+            <i><span style="color:green">чоловічий рід</i>.
+            Майстер, що виготовляє іграшки.<br />
+            <i>Хата іграшкаря була відкрита при розкопках стародавнього Новгорода </i> <span style="color:gray">(Нариси стародавньої історії УРСР, 1957, 426)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/9/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 9.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ІДОЛ<span class="stressed">Я</span><span class="stress">́</span>НИН</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, релігія</span></i>.
+            Те саме, що ідоловірець; поганин, язичник.<br />
+            <i>[Парвус:] Що ж до мене, я ідолянам не вступаю з шляху </i> <span style="color:gray">(Леся Українка, II, 1951, 346)</span>;<br />
+            <small><a href="http://sum.in.ua/p/4/13/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 13.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ІЛ<span class="stressed">О</span><span class="stress">́</span>Т</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            У стародавній Спарті — хлібороб, що перебував на становищі раба;<br />
+            <i><span style="color:green">переносне значення</span></i>. Безправна, поневолена людина.<br />
+            <small><a href="http://sum.in.ua/p/4/16/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 16.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ІМ<span class="stressed">Е</span><span class="stress">́</span>ННЯ, ЙМ<span class="stressed">Е</span><span class="stress">́</span>ННЯ</strong>, ~я,
+            Те саме, що ім\'я.<br />
+            <i>І жила в тій стороні бідна удова у земляній хатинці.., і мала вона сина на імення Івашко </i> <span style="color:gray">(Степан Васильченко, I, 1959, 332)</span>;<br />
+            <small><a href="http://sum.in.ua/p/4/19/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 19.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ІМЛ<span class="stressed">А</span><span class="stress">́</span></strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Повітря, густо насичене водяною парою; туман.<br />
+            <i>Степи й лиман криються фіолетовою імлою </i> <span style="color:gray">(Нечуй-Левицький, III, 1956, 306)</span>;<br />
+            <i>Не шуми про минуле, тополе, за вікном у ранковій імлі </i> <span style="color:gray">(Володимир Сосюра, I, 1957, 220)</span>;<br />
+            *Образно. <i>— Як же воно може так бути? — зачудовано питають строкарі, поринаючи в імлу солодких надій </i> <span style="color:gray">(Михайло Стельмах, Хліб.., 1959, 205)</span>.<br />
+            Повітря, насичене дрібними пилинками, димом і т. ін.<br />
+            <i>В корчмі було душно і висіла, імла </i> <span style="color:gray">(Михайло Коцюбинський, I, 1955, 20)</span>;<br />
+            <small><a href="http://sum.in.ua/p/4/19/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 19.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЇД<span class="stressed">А</span><span class="stress">́</span>ТИ</strong>, тільки
+            <i><span style="color:green">минулий час, недоконаний вид, перехідне дієслово</i> і без додатка,<i><span style="color:green"> розмовне, рідковживане</i>.
+            Багато разів їсти.<br />
+            <i>Як я молодою бувала, по 40 вареників їдала </i> <span style="color:gray">(Номис, 1864, № 8146)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/58/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 58.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЇД<span class="stressed">Е</span><span class="stress">́</span>ЦЬ</strong>, їдця,
+            <i><span style="color:green">чоловічий рід</span></i>. <br />
+            1. Той, хто їсть.<br />
+            <i>Це було кафе «вищого» світу.. Морозиво найкращого гатунку.. на блискучих тацях у зручних руках кельнерів носилося над головами їдців </i> <span style="color:gray">(Олесь Досвітній, Вибр., 1959, 393)</span>;<br />
+            <i><span style="color:green">переважно із означенням, розмовне</span></i>. Той, хто любить добре поїсти.<br />
+            <i>— А мені небагато треба поживку: їдець з мене кат зна який </i> <span style="color:gray">(Нечуй-Левицький, IV, 1956, 286)</span>;<br />
+            <i>Дорош переказав, що він буде старатися, але що з нього поганий їдець </i> <span style="color:gray">(Григорій Тютюнник, Вир, 1964, 156)</span>.<br />
+            2. Особа як одиниця при розподілі, при витрачанні харчових продуктів.<br />
+            <i>Ми хуторяни-діти У мріях без кінця, Ділили сад, і квіти, І поле на їдця </i> <span style="color:gray">(Андрій Малишко, Серце.., 1959, 159)</span>.<br />
+            Член сім\'ї, що харчується разом з іншими її членами.<br />
+            <i>А їдців вистачало: окрім дітей, і сам батько, старий Мороз, років зо три до смерті не працював уже ніде, усе хворів </i> <span style="color:gray">(Андрій Головко, II, 1957, 440)</span>;<br />
+            <i>Вона, Марійка, почула своє дитя саме в той день, коли в селі знову заговорили про землю.. Тому і просьбою, і грозьбою благала і їла Івана, щоб він вписав у списки чотирьох їдців </i> <span style="color:gray">(Михайло Стельмах, II, 1962, 20)</span>;<br />
+            <small><a href="http://sum.in.ua/p/4/59/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 59.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong><span class="stressed">Ї</span><span class="stress">́</span>ДКІСТЬ</strong>, ~кості,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Властивість за значенням їдкий.<br />
+            <small><a href="http://sum.in.ua/p/4/59/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 59.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong><span class="stressed">Ї</span><span class="stress">́</span>ДЛО</strong>, ~а,
+            Їжа.<br />
+            <i>— Коли б же ти знав, як я скучив за простою козацькою стравою... за кулешем.. Ого! Оце їдло так їдло!</i> <span style="color:gray">(Олександр Ільченко, Козацьк. роду.., 1958, 410)</span>;<br />
+            <small><a href="http://sum.in.ua/p/4/59/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 59.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong><span class="stressed">Ї</span><span class="stress">́</span>ДЬ</strong>, ~і,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.
+            Отрута.<br />
+            *Образно. <i>— Не лукав, Рогнідо! І ти і я мусимо помститись, бо зміїна їдь стопить наші серця у безсилій ненависті до спільного ворога </i> <span style="color:gray">(Юліан Опільський, Іду.., 1958, 187)</span>;<br />
+            <small><a href="http://sum.in.ua/p/4/59/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 59.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>К<span class="stressed">А</span><span class="stress">́</span>БАТ</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, діалектне</span></i>. <br />
+            1. Солдатська куртка.<br />
+            <i>Відси летіли на бабу їздці. В зелених кабатах із люльками в зубах, на червоних конях </i> <span style="color:gray">(Василь Стефаник, Вибр., 1945, 48)</span>.<br />
+            2. Пальто.<br />
+            <i>Нотар був одягнений у чорне з добротного сукна пальто, яке у них називали кабат </i> <span style="color:gray">(Агата Турчинська, Зорі.., 1950, 73)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/64/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 64.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>КАВ<span class="stressed">А</span><span class="stress">́</span>ЛОК</strong>, ~лка,
+            <i><span style="color:green">чоловічий рід, розмовне</span></i>. <br />
+            Те саме, що шматок.<br />
+            <i>Баба була сама, стара, мала хату та й той кавалок поля далеко від села </i> <span style="color:gray">(Іван Франко, IV, 1950, 10)</span>;<br />
+            <i>— Коли б це.. вирватись з Вінниці. Щоб хоч куток теплий мати, хліба кавалок </i> <span style="color:gray">(Михайло Коцюбинський, I, 1955, 453)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/66/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 66.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>К<span class="stressed">А</span><span class="stress">́</span>ВЕРЗА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, розмовне</span></i>. <br />
+            1. Підступ, який хто-небудь чинить, щоб ускладнити, заплутати справу, зробити шкоду; інтрига.<br />
+            <i>Червоні кролячі очі [Загнибіди] видавали лукаву душу, єхидні заміри: писарська каверза побраталася у них з крамарськими хитрощами </i> <span style="color:gray">(Панас Мирний, III, 1954, 75)</span>;<br />
+            <i>Підозрілий до всього голова артілі Неїжмак убачив у цьому якусь каверзу, спрямовану проти нього </i> <span style="color:gray">(Василь Минко, Вибр., 1952, 47)</span>.<br />
+            2. Злий, підступний жарт, зла витівка.<br />
+            <i>Можна було сподіватися непослуху і каверзи від учнів </i> <span style="color:gray">(Олексій Полторацький, Дит. Гоголя, 1954, 283)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/66/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 66.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>КАН<span class="stressed">А</span><span class="stress">́</span>ПА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>. <br />
+            Те саме, що диван.<br />
+            <i>В кутку на канапі.. сиділа пані Констанція і розкладала пасьянс </i> <span style="color:gray">(Михайло Коцюбинський, II, 1955, 247)</span>;<br />
+            <i>Іван Васильович ліг на канапу та й задрімав </i> <span style="color:gray">(Остап Вишня, II, 1956, 76)</span>;<br />
+            <i>Жінки прибирали з столу, а які сиділи на оксамитовій канапі і щось собі гомоніли </i> <span style="color:gray">(Андрій Головко, II, 1957, 52)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/87/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 87.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>КАТМ<span class="stressed">А</span><span class="stress">́</span></strong>,
+            <i><span style="color:green">розмовне</span></i>. <br />
+            Нема, немає.<br />
+            <i>— Та й грошей у мене тепер катма, — бідкається Грицько </i> <span style="color:gray">(Панас Мирний, I, 1949, 275)</span>;<br />
+            <i>А де ж наживи дух витає, Де загрібають обома Під себе, звісно, всякий знає, Що там ладу уже катма </i> <span style="color:gray">(Сергій Воскрекасенко, З перцем!, 1957, 104)</span>;<br />
+            <i>[Пріська:] Не бачить, що тут здоровля того давно катмає </i> <span style="color:gray">(Степан Васильченко, III, 1960, 82)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/119/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 119.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Л<span class="stressed">А</span><span class="stress">́</span>ЗНЯ</strong>, ~і,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Спеціальне приміщення, де паряться і миються.<br />
+            <i>— Змилуйтесь, свате, я в сій зроду Лазні не купався </i> <span style="color:gray">(Гулак-Артемовський, Байки.., 1958, 73)</span>.<br />
+            <i>Челканов доповів, що лазня готова, можна йти митися </i> <span style="color:gray">(Іван Микитенко, II, 1957, 431)</span>;<br />
+            *У порівняннях. <i>В палаці була духота, як у лазні </i> <span style="color:gray">(Нечуй-Левицький, IV, 1956, 28)</span>;<br />
+            Миття в такому приміщенні.  *У порівняннях. <i>— Коли б так, щоб і недалеко, й рибки піймати, — вставив червоний, як після лазні, Матня </i> <span style="color:gray">(Панас Мирний, I, 1949, 409)</span>;<br />
+            <small><a href="http://sum.in.ua/p/4/437/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 437.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЛАЙД<span class="stressed">А</span><span class="stress">́</span>К</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, діалектне</span></i>. <br />
+            1. Вбога бездомна людина.<br />
+            <i>— Я лайдак. Пропив усе до нитки. І полотно пропив </i> <span style="color:gray">(Василь Стефаник, Вибр., 1945, 34)</span>;<br />
+            2. Уживається як лайливе слово.<br />
+            <i>Увійшло в хату оце пиховате цабе, розсілося — і давай хизуватися.. — Чому голови не хилиш, лайдако! Падай на коліна, старий собако! </i> <span style="color:gray">(Олександр Ковінька, Кутя.., 1960, 67)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/437/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 437.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Л<span class="stressed">А</span><span class="stress">́</span>С</strong>, ~у,
+            <i><span style="color:green">чоловічий рід, діалектне</span></i>.
+            Смак.<br />
+            <i>Кожний Івась ма [має] свій лас </i> <span style="color:gray">(Номис, 1864, № 7938)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/449/1">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 449.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Л<span class="stressed">А</span><span class="stress">́</span>СОЩІ</strong>, ~ів,
+            <i><span style="color:green">множина</span></i>.
+            Солодкі кондитерські вироби і взагалі все смачне.<br />
+            <i>І ласощі все тілько їли [праведники], Сластьони, коржики, стовпці, Варенички пшеничні, білі, Пухкі з кав\'яром буханці </i> <span style="color:gray">(Іван Котляревський, I, 1952, 149)</span>;<br />
+            <i>Вся наша величезна північ споконвіку цвіту не бачить. Яблуко — ласощі. Виноград — казкове слово! А ми зробимо Радянську Росію яблуневою, грушевою, вишневою, персиковою! </i> <span style="color:gray">(Олександр Довженко, I, 1958, 461)</span>;<br />
+            *У порівняннях.
+            <i>Явдоха ковтає його [борошно], як невимовні ласощі </i> <span style="color:gray">(Олесь Донченко, III, 1956, 10)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/451/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 451.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЛЕГ<span class="stressed">Е</span><span class="stress">́</span>ЙДА</strong>, ~и,
+            <i><span style="color:green">чоловічий і жіночий рід, західноукраїнське, лайливе слово чи вираз</span></i>.
+            Недотепа.<br />
+            <i>— Розсудливий батько і сам би сього догадався, що дітям уже пора до школи, а такий легейда, як ти, може потішитися несподіванкою </i> <span style="color:gray">(Іван Франко, VI, 1951, 371)</span>;<br />
+            <i>— Де ти, легейдо, волочився на моє лихо? </i> <span style="color:gray">(Петро Козланюк, Ю. Крук, 1957, 373)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/460/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 460.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>М<span class="stressed">А</span><span class="stress">́</span>ВКА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>. <br />
+            1. Казкова лісова істота в образі гарної голої дівчини з довгим розпущеним волоссям; лісова німфа.<br />
+            <i>Мавки з зеленими косами гойдаються на березових гілках </i> <span style="color:gray">(Іван Франко, IV, 1950, 473)</span>;<br />
+            <i>[Мавка:] Я — Мавка лісова.. [Лукаш:] А, от ти хто! Я від старих людей про мавок чув не раз </i> <span style="color:gray">(Леся Українка, III, 1952, 198)</span>;<br />
+            <i>На деревах мавки в русальну ніч позбиралися та й спробували були зачепити Михайлика, але хлопець того й не відчув, бо ж над закоханими навіть нечиста сила не владна </i> <span style="color:gray">(Олександр Ільченко, Козацьк. роду.., 1958, 334)</span>;<br />
+            *Образно. <i>Та пісня шелестіла травкою, Торкнулась хвильки озерця, І тихо промайнувши мавкою, У наші увійшла серця </i> <span style="color:gray">(Олекса Ющенко, Люди.., 1959, 55)</span>;<br />
+            *У порівняннях. <i>Ти снилась, марилась і мрілась, Як мавка в синьому диму </i> <span style="color:gray">(Андрій Малишко, Звенигора, 1959, 163)</span>.<br />
+            2. <i><span style="color:green">рідковживане</span></i>. Те саме, що русалка; водяна німфа.<br />
+            <i>Ущухнуло море, і хвилі вляглися; Пустують по піні мавки </i> <span style="color:gray">(Євген Гребінка, I, 1957, 83)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/587/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 587.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>М<span class="stressed">А</span><span class="stress">́</span>ЙВО</strong>, ~а,
+            <i><span style="color:green">середній рід, поетичне</span></i>. <br />
+            1. Повільне, плавне коливання тонких, легких предметів під дією вітру.<br />
+            <i>З дерев летить червоне листя, Все місто в майві прапорів </i> <span style="color:gray">(Іван Вирган, В розп. літа, 1959, 36)</span>;<br />
+            <i>Не спалили чужинці весну, вона струмилася в розбиті вікна тугими пасмами сонця та зеленим майвом каштанів </i> <span style="color:gray">(Олесь Гончар, Південь, 1951, 73)</span>.<br />
+            2. Те саме, що мерехтіння.<br />
+            <i>Там міста в рожевім майві, що були у млі, і у сонячному сяйві грають їх шпилі </i> <span style="color:gray">(Володимир Сосюра, Поезії, 1950, 49)</span>;<br />
+            <i>А при багатті хлопці косарі І комбайнери у спецівках синіх Вплітають сміх до цих лугів осінніх, Ведуть пісні під маєвом зорі </i> <span style="color:gray">(Андрій Малишко, Звенигора, 1959, 283)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/597/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 597.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>МАМ<span class="stressed">І</span><span class="stress">́</span>Й</strong>, ~я,
+            <i><span style="color:green">чоловічий рід, іронічне слово чи вираз</span></i>.
+             Розпещений, виніжений син.<br />
+            <i>— Так постій, Карпику, я піду матері спитаю. — От мамій! Нащо її питати </i> <span style="color:gray">(Панас Мирний, I, 1954, 245)</span>;<br />
+            <i>Дем\'янко.. тулився до материних грудей, не кажучи й слова. «От мамій, — сказав батько, — тебе ніяка війна не переробила, мамій та й годі!» </i> <span style="color:gray">(Юрій Яновський, Мир, 1956, 163)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/615/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 615.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>МАРНОТ<span class="stressed">А</span><span class="stress">́</span></strong>, ~и,
+            <i><span style="color:green">жіночий рід, абстрактний іменник</span></i>.
+            до марний; марність, суєтність.<br />
+            <i>[Мартіан:] Не заслужив я слів таких від тебе. Се просто марнота й дрібна досада в тобі говорять </i> <span style="color:gray">(Леся Українка, III, 1952, 279)</span>;<br />
+            <i>Руїни сірі. Галки на стіні Сидять, мов судді марноти людської  </i> <span style="color:gray">(Максим Рильський, III, 1961, 274)</span>.<br />
+            <small><a href="http://sum.in.ua/p/4/631/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 631.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>МАР<span class="stressed">У</span><span class="stress">́</span>ДА</strong>, ~и,
+            <i><span style="color:green">чоловічий і жіночий рід, розмовне</span></i>. <br />
+            1. Людина, що все робить надто повільно, нудно; марудна людина.<br />
+            <i>Не облишав її своєю увагою й куценький ченчик, тихоплав і маруда, отець Зосима </i> <span style="color:gray">(Олександр Ільченко, Козацьк. роду.., 1958, 248)</span>.<br />
+            2. Той, хто марудить.<br />
+            <small><a href="http://sum.in.ua/p/4/633/2">© Словник української мови: в 11 томах. — Том 4, 1973. — Стор. 633.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Н<span class="stressed">А</span><span class="stress">́</span>БРІД</strong>, ~роду,
+            <i><span style="color:green">чоловічий рід, збірне, зневажливе слово, вираз</span></i>.
+            Нікчемні, шкідливі для суспільства люди, які випадково зібралися разом.<br />
+            <i>Раніш мовби й не помічала, скільки серед тих, хто її оточує, всякого наброду — то невдоволених розверсткою хутірських синків, то колишніх стражників та тюремних наглядачів </i> <span style="color:gray">(Олесь Гончар, II, 1959, 263)</span>.<br />
+            <small><a href="http://sum.in.ua/p/5/19/2">© Словник української мови: в 11 томах. — Том 5, 1974. — Стор. 19.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>НАБ<span class="stressed">У</span><span class="stress">́</span>ТОК</strong>, ~тку,
+            <i><span style="color:green">чоловічий рід</span></i>. <br />
+            Те, що набувають працею, затрачаючи силу й енергію.<br />
+            <i>Не віддасть він [солдат] нікому набутку свого — що узято в бою, те здобуто навіки! </i> <span style="color:gray">(Сава Голованівський, Поезії, 1955, 13)</span>;<br />
+            <i>Для селян, які провозили десь на західний торг звичайний набуток своєї праці, такі придорожні села, за панським чи його дозорного посіпаки замочком, ставали страховищем </i> <span style="color:gray">(Іван Ле, Наливайко, 1957, 6)</span>.<br />
+             Те, що неподільно належить кому-небудь. <i>Література, музика, образотворче мистецтво, театр і кіно, всі скарбниці культури стали набутком широких мас трудящих </i> <span style="color:gray">(Літературна газета, 26.IX 1961, 4)</span>.<br />
+            <small><a href="http://sum.in.ua/p/5/22/1">© Словник української мови: в 11 томах. — Том 5, 1974. — Стор. 22.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Н<span class="stressed">А</span><span class="stress">́</span>ВІД</strong>, ~воду,
+            <i><span style="color:green">чоловічий рід, застаріле</span></i>.
+            Вказівка, порада.<br />
+            ♦ Дати навід <i>— дати вказівку, порадити, навчити, як треба зробити що-небудь.</i><br />
+            <small><a href="http://sum.in.ua/p/5/32/2">© Словник української мови: в 11 томах. — Том 5, 1974. — Стор. 32.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ОБЕР<span class="stressed">Е</span><span class="stress">́</span>МОК</strong>, ~мка,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            Така кількість чого-небудь, звичайно однорідного, яку можна обхопити, взяти рукою (руками).<br />
+            <i>Погонич, обсипаний снігом, .. насилу вліз у двері з цілим оберемком скриньок </i> <span style="color:gray">(Нечуй-Левицький, Л, 1956, 70)</span>;<br />
+            <i>Омелян подає їй у вікно оберемок полін </i> <span style="color:gray">(Іван Франко, IX, 1952, 159)</span>;<br />
+            <i>Тимко носить оберемками сухий бур\'ян </i> <span style="color:gray">(Григорій Тютюнник, Вир, 1964, 14)</span>;<br />
+            Зв\'язане докупи що-небудь однорідне; в\'язка. <i>Пішов Дідок у ліс по дрова; Не забарився в\'язку нарубать, ..Як не мостивсь, як не ладнав, А оберемка не підняв </i> <span style="color:gray">(Леонід Глібов, Вибр., 1951, 87)</span>;<br />
+            <i>Вона, ..повертаючи додому, завжди несла за плечима оберемок сухогілля </i> <span style="color:gray">(Григорій Епік, Тв., 1958, 425)</span>;<br />
+            <i><span style="color:green">переносне значення</span></i>. Велика кількість чого-небудь. <i>Кравченко приніс цілий оберемок своїх творів і почав читати </i> <span style="color:gray">(Михайло Коцюбинський, III, 1956, 176)</span>;<br />
+            <i>В коморі — столик, ліжко, оберемок шкільних книжок </i> <span style="color:gray">(Степан Васильченко, Вибр., 1954, 26)</span>;<br />
+            <small><a href="http://sum.in.ua/p/5/489/2">© Словник української мови: в 11 томах. — Том 5, 1974. — Стор. 489.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ОБР<span class="stressed">І</span><span class="stress">́</span>К</strong>, ~року,
+            <i><span style="color:green">чоловічий рід, розмовне</span></i>. <br />
+            1. Дрібно посічена солома з вівсом, дертю і т. ін. для годівлі коней.<br />
+            <i>Чорні очі, пора спати, Завтра, рано треба встати, Коникові обрік дати </i> <span style="color:gray">(Українські народні ліричні пісні, 1958, 238)</span>;<br />
+            <i>Степан видавав сам обрік і був завсігди при тому, як наймит перемішував овес із січкою </i> <span style="color:gray">(Антін Крушельницький, Буденний хліб.., 1960, 46)</span>.<br />
+            2. <i><span style="color:green">застаріле</span></i>. Урочиста обіцянка, клятва; моральне зобов\'язання.<br />
+            <i>Обрік даю більше цього не робити </i> <span style="color:gray">(Словник Грінченка)</span>.<br />
+            <small><a href="http://sum.in.ua/p/5/568/2">© Словник української мови: в 11 томах. — Том 5, 1974. — Стор. 568.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ОБР<span class="stressed">О</span><span class="stress">́</span>К</strong>, ~у,
+            <i><span style="color:green">чоловічий рід, історія</span></i>.
+            Податок грошима чи натурою, який стягували поміщики з кріпаків замість панщини.<br />
+            <i>Він [селянин] віддавав феодалу зерно, курей, гусей, яйця, рибу, а також усякі домашні вироби, пряжу, полотно. Такі внески називались оброком </i> <span style="color:gray">(Історія середніх віків, 1955, 29)</span>;<br />
+            <i>Аж ось вийшов рішенець: Несіть панові ралець, Що без чиншу та оброків Ви владали стільки років Тим, що панове було... </i> <span style="color:gray">(Іван Манжура, Тв., 1955, 150)</span>;<br />
+            <i>— А я — як не заплатить оброку вчасно, то штрафую втроє більше </i> <span style="color:gray">(Олексій Полторацький, Дит. Гоголя, 1954, 147)</span>.<br />
+            <small><a href="http://sum.in.ua/p/5/570/2">© Словник української мови: в 11 томах. — Том 5, 1974. — Стор. 570.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ПАЙД<span class="stressed">А</span><span class="stress">́</span></strong>, ~и,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.<br />
+            1. Приношення, дарунок.<br />
+            <i>Попові у піст саме, значить, пайда йшла </i> <span style="color:gray">(Словник Грінченка)</span>.<br />
+            2. Щастя, талан.<br />
+            <i>Як нема пайди, то й з хати не йди </i> <span style="color:gray">(Словник Грінченка)</span>.<br />
+            <small><a href="http://sum.in.ua/p/6/16/1">© Словник української мови: в 11 томах. — Том 6, 1975. — Стор. 16.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ПАЛАМ<span class="stressed">А</span><span class="stress">́</span>Р</strong>, ~я,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            Служитель православної церкви, що допомагає священику під час богослужіння; дячок, псаломщик, причетник.<br />
+            <i>Коло амвона стояв паламар, держачи в руках тарілочку задля грошей </i> <span style="color:gray">(Агатангел Кримський, Вибр., 1965, 336)</span>;<br />
+            <i>Паламар засвічує свічки, і з темних кутків раптом виступають лиця святих </i> <span style="color:gray">(Олесь Донченко, III, 1956, 26)</span>;<br />
+            *У порівняннях. <i>— Вихилить становий другу склянку, шибоне вона йому в голову — і почне він клепати язиком, наче паламар той у дзвона </i> <span style="color:gray">(Панас Мирний, IV, 1955, 351)</span>.<br />
+            <small><a href="http://sum.in.ua/p/6/20/1">© Словник української мови: в 11 томах. — Том 6, 1975. — Стор. 20.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ПАЛ<span class="stressed">А</span><span class="stress">́</span>НКА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, застаріле</span></i>.<br />
+            1. На Запорізькій Січі у XVIII ст. — невелике укріплення, обнесене частоколом.<br />
+            <i>Загін наближався до Тавільжана, і Хмельницький не пам\'ятав, щоб поблизу була якась паланка чи хоч би хутір козацький </i> <span style="color:gray">(Петро Панч, Гомон. Україна, 1954, 218)</span>.<br />
+            2. Адміністративний округ у запорожців.<br />
+            <i>Вся територія Запорожжя [у XVIII ст.] ділилась на так звані паланки (чотири північні і чотири південні) </i> <span style="color:gray">(Історія УРСР, I, 1953, 341)</span>;<br />
+            <i>— По дорозі заверну додому в Новосельці, підберу надійних людей і пошлю по слободах Самарської та Кальміуської паланок вербувати запорожців </i> <span style="color:gray">(Спиридон Добровольський, Очак. розмир, 1965, 18)</span>.<br />
+            3. Полкове укріплення, місце перебування полковника з іншими службовими особами полку у запорожців.<br />
+            <i>— Ходімо у паланку до військового судді — нехай він нас розсудить </i> <span style="color:gray">(Олекса Стороженко, I, 1957, 39)</span>;<br />
+            <i>— Ну, показуй мені першу паланку, — промовив кошовий отаман </i> <span style="color:gray">(Остап Вишня, I, 1956, 328)</span>.<br />
+            <small><a href="http://sum.in.ua/p/6/20/2">© Словник української мови: в 11 томах. — Том 6, 1975. — Стор. 20.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Р<span class="stressed">А</span><span class="stress">́</span>ТА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, застаріле</span></i>.
+            Термін сплати боргу, а також частина боргу, сплачена в якийсь відрізок даного строку.<br />
+            <i>— На терміні він підписав мені злагоду, що має мені вернути до трьох років ратами двісті левів </i> <span style="color:gray">(Лесь Мартович, Тв., 1954, 67)</span>.<br />
+            <small><a href="http://sum.in.ua/p/8/453/2">© Словник української мови: в 11 томах. — Том 8, 1977. — Стор. 453.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Р<span class="stressed">А</span><span class="stress">́</span>ТИЦЯ</strong>, ~і,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Рогове утворення в кінці ніг деяких ссавців; копито.<br />
+            <i>Воли завзятіше захитали рогами.. і швидше пішли, глибоко занурюючи ратиці в піщане річище </i> <span style="color:gray">(Зінаїда Тулуб, Людолови, I, 1957, 387)</span>.<br />
+            <i>Морозне повітря наповнилось костяним шумом тисяч оленячих ратиць </i> <span style="color:gray">(Володимир Гжицький, Чорне озеро, 1961, 93)</span>;<br />
+            Уживається як лайливе слово по відношенню до людини. <i>— Тимочку, а ти не заявиш на мене? — Цить, ратиця коров\'яча! Ні ти, ні я нічого не знаємо </i> <span style="color:gray">(Григорій Тютюнник, Вир, 1964, .346)</span>.<br />
+            <small><a href="http://sum.in.ua/p/8/454/1">© Словник української мови: в 11 томах. — Том 8, 1977. — Стор. 454.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Р<span class="stressed">А</span><span class="stress">́</span>ЦІЯ</strong>, ~ї,
+            <i><span style="color:green">жіночий рід</span></i>.<br />
+            1. Розумна підстава, обґрунтування чого-небудь.<br />
+            <i>— Ой ви, Химченку! — докірливо, але по-батьківському почав казати Корніцький, — ви шукаєте рації, аргументації й т. ін. на кожнісінький свій вчинок </i> <span style="color:gray">(Агатангел Кримський, Вибр., 1965, 331)</span>.<br />
+            <i>Морозне повітря наповнилось костяним шумом тисяч оленячих ратиць </i> <span style="color:gray">(Володимир Гжицький, Чорне озеро, 1961, 93)</span>;<br />
+            Розрахунок, користь, вигода. <i>Дядько уважає, що Вам нема жадної рації давати гроші ворожим до Вас людям </i> <span style="color:gray">(Леся Українка, V, 1956, 171)</span>;<br />
+            <i>Тікати не було рації. Хутір був оточений </i> <span style="color:gray">(Зінаїда Тулуб, Людолови, I, 1957, 141)</span>.<br />
+            2. <i><span style="color:green">застпріле</span></i>. Вітальна промова.<br />
+            <i>Посли к Латину приступились, Три рази низько поклонились, А старший рацію сказав </i> <span style="color:gray">(Іван Котляревський, I, 1952, 172)</span>.<br />
+            <small><a href="http://sum.in.ua/p/8/459/2">© Словник української мови: в 11 томах. — Том 8, 1977. — Стор. 459.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>С<span class="stressed">А</span><span class="stress">́</span>ЙКА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.<br />
+            1. Невелика довгаста пшенична булка з заокругленими краями.<br />
+            2. Невелика полярна риба родини тріскових.<br />
+            <small><a href="http://sum.in.ua/p/9/16/2">© Словник української мови: в 11 томах. — Том 9, 1978. — Стор. 16.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>САМОР<span class="stressed">У</span><span class="stress">́</span>Х</strong>, ~у,
+            <i><span style="color:green">чоловічий рід, філософія</span></i>.
+            Вічний рух і розвиток матерії, що відбувається внаслідок притаманних їй суперечностей, боротьби протилежностей.<br />
+            <i>Досягнення сучасної фізики свідчать про те, що матеріальний світ — це вічний процес саморуху матерії, який слід розуміти як процес якісних перетворень, як єдність утворення та руйнування </i> <span style="color:gray">(Наука і життя, 4, 1965, 16)</span>.<br />
+            <small><a href="http://sum.in.ua/p/9/45/1">© Словник української мови: в 11 томах. — Том 9, 1978. — Стор. 45.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>СВАВ<span class="stressed">І</span><span class="stress">́</span>ЛЛЯ</strong>, ~я,
+            <i><span style="color:green">середній рід</span></i>.<br />
+            1.  Необмежена влада, відсутність законності, справедливості.<br />
+            <i>На Сенатській площі ніби досі ще лунає голос декабристів і перший постріл Кюхельбекера — бунтаря проти деспотичного свавілля царату </i> <span style="color:gray">(Іван Ле, Право.., 1957, 91)</span>;<br />
+            <i>Оповідали втікачі про свавілля шляхетське, і від тих розповідей стрільці гнівом запалювалися лютим  </i> <span style="color:gray">(Натан Рибак, Переясл. Рада, 1953, 487)</span>;<br />
+            <i>Ян Гус зазнав долі вигнанця, до самої глибини пізнав папське свавілля </i> <span style="color:gray">(Юрій Мельничук, Папи.., 1960, 37)</span>;<br />
+            <i>Його відлюдна вдача не погасила буйної веселості панства, не стримала його невгамовного свавілля </i> <span style="color:gray">(Зінаїда Тулуб, Людолови, I, 1957, 6)</span>.<br />
+            2. Схильність діяти на власний розсуд, не зважаючи на волю й думку інших; самовілля.<br />
+            <i>Практичне здійснення вимог навіть ліберального цензурного статуту 1804 р. не виключало свавілля з боку особливо запопадливих цензорів </i> <span style="color:gray">(Матеріали з історії української журналістики, 1959, 27)</span>;<br />
+            Відображення явищ реальної дійсності, що ґрунтується лише на власному, часто спотвореному, сприйнятті, відступ від правди життя (у творах мистецтва тощо). <i>Імпресіоністичному методові, який веде до суб\'єктивного свавілля художника і відриву мистецтва від широкого глядача, він [І. Франко] протиставляє вимогу об\'єктивного і правдивого відображення дійсності </i> <span style="color:gray">(Мистецтво, 4, 1956, 4)</span>;<br />
+            <i>Художник, замість погрозливої войовничості, надав його обличчю відкрито веселого, доброго, зовсім гуманного виразу.. Незважаючи на таке свавілля, Хома, розглянувши свій портрет, був задоволений </i> <span style="color:gray">(Гончак III, 1959, 230)</span>.<br />
+            3. Свавільна поведінка, свавільний вчинок.<br />
+            <i>Мати Лукія серцем за дочку мліла, застерігала від свавілля </i> <span style="color:gray">(Костянтин Гордієнко, Чужу ниву.., 1947, 131)</span>;<br />
+            <i>Одного разу весною, зодягши поверх білизни піжаму, втік [Дорош] із пораненими в місто, щоб поблукати по туманних вулицях Ленінграда.. Його вилаяли за таке свавілля, але лікували справно </i> <span style="color:gray">(Григорій Тютюнник, Вир, 1964, 200)</span>;<br />
+            <i>Було б добре, якби хтось із учорашніх знайомих опинився в таборі, як він вирушатиме.. Тоді б Нур не наважився на якесь свавілля, побоявся б </i> <span style="color:gray">(Дмитро Ткач, Арена.., 1960, 53)</span>.<br />
+            <small><a href="http://sum.in.ua/p/9/63/2">© Словник української мови: в 11 томах. — Том 9, 1978. — Стор. 63.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ТАЛ<span class="stressed">А</span><span class="stress">́</span>Н</strong>, ~у,
+            <i><span style="color:green">чоловічий рід</span></i>.<br />
+            1. Доля, життєвий шлях кого-небудь.<br />
+            <i>Ой, світе мій ясний, світе мій прекрасний, Який мій талан нещасний! </i> <span style="color:gray">(Українські народні ліричні пісні, 1958, 269)</span>;<br />
+            <i>— Пожила я з ним два роки та й овдовіла. Отакий мій талан </i> <span style="color:gray">(Нечуй-Левицький, II, 1956, 111)</span>;<br />
+            Щаслива доля, щастя. <i>Нудно йому На чужому полі! Всього надбав, роботяга, Та не придбав долі- Талану того святого... </i> <span style="color:gray">(Тарас Шевченко, II, 1953, 106)</span>;<br />
+            <i>[Ганна:] Накликай талану, а безталання й само тебе здиба! </i> <span style="color:gray">(Марко Кропивницький, II, 1958, 36)</span>;<br />
+            <i>— Та незабаром кинув я Конецпольських і подався до Києва, до Аксака. Але й там не знайшов я талану... </i> <span style="color:gray">(Зінаїда Тулуб, Людолови, I, 1957, 70)</span>;<br />
+            Успіх, удача. <i>Старший брат і ні гадки собі: лежить та загріба гроші лопатою — усе йому бог дав, а менший працює, як риба об лід побивається, а нічого не вдіє, ні в чому нема йому талану </i> <span style="color:gray">(Олекса Стороженко, I, 1957, 31)</span>;<br />
+            <i>— Ні, немає щастя й талану бідним на сьому світі і не буде ніколи! — рішила вона </i> <span style="color:gray">(Панас Мирний, III, 1954, 78)</span>.<br />
+            2. Те саме, що талант; хист.<br />
+            <i>— А ти прочитай [«Кобзаря»], то сама побачиш, як чоловік з таланом може орудувати тією простою мовою </i> <span style="color:gray">(Панас Мирний, IV, 1955, 340)</span>;<br />
+            <i>Десь, колись, в якійсь країні Пробував поет нещасний, Тільки й мав талан до віршів Не позичений, а власний </i> <span style="color:gray">(Леся Українка, I, 1951, 363)</span>;<br />
+            <i>— Максиму бути головою, — Казали люди у селі, — Талан у хлопця до землі </i> <span style="color:gray">(Михайло Стельмах, V, 1963, 55)</span>.<br />
+            <small><a href="http://sum.in.ua/p/10/26/1">© Словник української мови: в 11 томах. — Том 10, 1979. — Стор. 26.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ТАРГ<span class="stressed">А</span><span class="stress">́</span>Н</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            Прямокрила комаха чорного чи бурого кольору з довгими вусиками, що живе в житлових приміщеннях і пошкоджує харчові продукти, а іноді переносить збудників різних захворювань людини; прусак.<br />
+            <i>Під лавками пищали миші,.. та таргани шаруділи у миснику </i> <span style="color:gray">(Михайло Коцюбинський, II, 1955, 74)</span>;<br />
+            <i>Ще гірше — життя в казармі. Цей жахливий бруд,.. і мільйони блощиць та мух. тарганів і прусаків </i> <span style="color:gray">(Зінаїда Тулуб, В степу.., 1964, 136)</span>;<br />
+            *У порівняннях. <i>Мамій нетерпляче ворухнув вусиками, як тарган, що потрапив на розпечену сковороду </i> <span style="color:gray">(Спиридон Добровольський, Тече річка.., 1961, 21)</span>.<br />
+            <small><a href="http://sum.in.ua/p/10/40/1">© Словник української мови: в 11 томах. — Том 10, 1979. — Стор. 40.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ТАРК<span class="stressed">А</span><span class="stress">́</span>Ч</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, розмовне</span></i>.
+            Білий кінь із чорними або рудими плямами.<br />
+            <small><a href="http://sum.in.ua/p/10/41/1">© Словник української мови: в 11 томах. — Том 10, 1979. — Стор. 41.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>УБ<span class="stressed">І</span><span class="stress">́</span>Р</strong>, убору,
+            <i><span style="color:green">чоловічий рід</span></i>.<br />
+            1. Те, що одягають на себе; одяг взагалі або багатий, пишний одяг; убрання.<br />
+            <i>Скинув він [Грегор] кожух, а на йому убір гарний та дорогий: синій суконний жупан з ґудзиками, добрі чоботи, синя жилетка, а на жилетці аж чотири ряди здорових ґудзиків так і сяють; шия зав\'язана червоною хусткою </i> <span style="color:gray">(Нечуй-Левицький, III, 1956, 272)</span>;<br />
+            <i>Любила Параска уборами менжувати, коли б вона була багачка — на жодень [кожен] день мала б новий убір </i> <span style="color:gray">(Панас Мирний, IV, 1955, 33)</span>;<br />
+            *Образно. <i>Весь ліс — в інеї, в крихкому, казково розкішному уборі </i> <span style="color:gray">(Олесь Гончар, II, 1959, 136)</span>.<br />
+            2. Те, що служить як прикраса, оздоба.<br />
+            <i>Сонце грає на золотих уборах, на дорогих кунтушах </i> <span style="color:gray">(Нечуй-Левицький, III, 1956, 308)</span>.<br />
+            <small><a href="http://sum.in.ua/p/10/356/1">© Словник української мови: в 11 томах. — Том 10, 1979. — Стор. 356.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>УБР<span class="stressed">У</span><span class="stress">́</span>С</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, застаріле</span></i>.<br />
+            1. Старовинний жіночий головний убір.<br />
+            <i>Давнішим головним убором східнослов\'янських жінок є намітка під назвою убрус </i> <span style="color:gray">(Народна творчість та етнографія, 6, 1969, 18)</span>.<br />
+            2. <i><span style="color:green">діалектне</span></i>. Скатерка.<br />
+            <i>Сонце.. заглядало в блискучі келихи й чаші, що рядами стояли на столі, укритому убрусом, гаптованим золотом і сріблом </i> <span style="color:gray">(Антон Хижняк, Д. Галицький, 1958, 10)</span>;<br />
+            *Образно. <i>Як медова сита, Всіх осінь ситила. Отож на певнім тижні Убрус гаптований стелила всім земля — І річ заходила в людей про весілля </i> <span style="color:gray">(Максим Рильський, Поеми, 1957, 234)</span>;<br />
+            *У порівняннях. <i>Він стояв, спершись обома руками на стіл, на якому, наче великий убрус з дивними візерунками, лежала військова карта </i> <span style="color:gray">(Леонід Первомайський, Невигадане життя, 1958, 253)</span>.<br />
+            <small><a href="http://sum.in.ua/p/10/361/1">© Словник української мови: в 11 томах. — Том 10, 1979. — Стор. 361.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong><span class="stressed">У</span><span class="stress">́</span>ДІЛ</strong>, ~у,
+            <i><span style="color:green">чоловічий рід, західноукраїнське, застаріле</span></i>.
+            Участь.<br />
+            <i>А пора збирання винограду? — пригадує Замфір. — Ну, це вже легка, празникова робота. Ціла родина бере уділ в тій праці </i> <span style="color:gray">(Михайло Коцюбинський, I, 1955, 191)</span>;<br />
+            <i>На той час зближалася пора живішого народного розбудження; прибитому і пригніченому народові позволено.. брати чинний уділ у загальних справах </i> <span style="color:gray">(Наталія Кобринська, Вибр., 1954, 39)</span>.<br />
+            <small><a href="http://sum.in.ua/p/10/394/1">© Словник української мови: в 11 томах. — Том 10, 1979. — Стор. 394.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ф<span class="stressed">А</span><span class="stress">́</span>БУЛА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, літературознавство</span></i>.
+            Хронологічно послідовне зображення подій і пригод у художньому творі; канва, схема розвитку життєвих подій, подана в художньому творі в послідовному порядку.<br />
+            <i>Побачимо, що. буде. У мене вже й фабула складається </i> <span style="color:gray">(Михайло Коцюбинський, III, 1956, 166)</span>;<br />
+            <i>Актори, заздалегідь умовившись про розвиток сюжету, про фабулу й інтригу, створювали в ході вистави все те, що мовили з кону </i> <span style="color:gray">(Олександр Ільченко, Козацьк. роду.., 1958, 196)</span>;<br />
+            <i>Фабулу поеми «Княжна» Шевченко використав згодом у повісті російською мовою «Княгиня» </i> <span style="color:gray">(Життя і творчість Т. Г. Шевченка, 1959, 297)</span>.<br />
+            <small><a href="http://sum.in.ua/p/10/548/2">© Словник української мови: в 11 томах. — Том 10, 1979. — Стор. 548.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ф<span class="stressed">А</span><span class="stress">́</span>ЙКА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.
+            Люлька.<br />
+            <i>Знов тихо стало, тільки чути було пакання файки в зубах діда Панька </i> <span style="color:gray">(Іван Франко, I, 1955, 289)</span>;<br />
+            <i>Берник затис між зубами набиту тютюном файку, а в руках тримав сірники </i> <span style="color:gray">(Ігор Муратов, Буковинська повість, 1959, 27)</span>.<br />
+            <small><a href="http://sum.in.ua/p/10/551/1">© Словник української мови: в 11 томах. — Том 10, 1979. — Стор. 551.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ФАЛ<span class="stressed">А</span><span class="stress">́</span>ТТЯ</strong>, ~я,
+            <i><span style="color:green">середній рід, збірне, діалектне</span></i>.
+            Клоччя, лахміття.<br />
+            *У порівняннях. <i>Кляпи від сурдута бідного Хоми давно були повідривані і висіли, мов нужденне фалаття </i> <span style="color:gray">(Іван Франко, IV, 1950, 305)</span>.<br />
+            <small><a href="http://sum.in.ua/p/10/554/2">© Словник української мови: в 11 томах. — Том 10, 1979. — Стор. 554.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ХАБ<span class="stressed">А</span><span class="stress">́</span>З</strong>, ~у,
+            <i><span style="color:green">чоловічий рід, діалектне</span></i>.
+            Зарості бур\'яну, дрібного чагарника і т. ін.<br />
+            <i>Як сад, зарослий хабазами, Дичіє й нидіє поволі, Так гордий чоловік не виб\'ється ніколи Із життєвих марниць неволі </i> <span style="color:gray">(Іван Франко, XI, 1952, 323)</span>;<br />
+            <i>Довго ходили Довбущуки помежи корчами кропиви і хабузу, довго оглядали сумні останки </i> <span style="color:gray">(Іван Франко, VIII, 1952, 242)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/7/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 7.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ХАЛ<span class="stressed">У</span><span class="stress">́</span>ПНИК</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, історія</span></i>.
+            Безземельний селянин, бідняк, який мав тільки халупу.<br />
+            <i>У халупників [XVI ст.] були тільки халупи (злиденні хати) </i> <span style="color:gray">(Історія УРСР, І, 1953, 129)</span>;<br />
+            <i>Агій, що тут миру на віче зійшлось! І господар, і пан, і халупник </i> <span style="color:gray">(Іван Франко, XI, 1952, 390)</span>;<br />
+            <i>Невже ота лісова квітка, що Любою зветься, виросла для вбогого халупника, який за вік і чорного хліба не наїсться? </i> <span style="color:gray">(Михайло Стельмах, Хліб.., 1959, 497)</span>;<br />
+            <small><a href="http://sum.in.ua/p/11/15/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 15.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ХАРЦ<span class="stressed">И</span><span class="stress">́</span>З</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, розмовне</span></i>.
+            Розбійник, грабіжник.<br />
+            <i>— Не звір я — людську кров пролити, І не харциз, людей щоб бити </i> <span style="color:gray">(Іван Котляревський, I, 1952, 185)</span>;<br />
+            <i>[Віталій:] На попасі, тілько місяць зайшов, потемніло, саме перший сон став налягать, харцизи почали до валки підкрадатись... А ми.. як шарахнули з двадцяти рушниць, так десяток харцизів і покотилось! </i> <span style="color:gray">(Карпенко-Карий, II, 1960, 193)</span>;<br />
+            *У порівняннях. <i>На сторожі Стояли Евріал і Низ; Хоть молоді були, та гожі І кріпкі, храбрі [хоробрі], як харциз </i> <span style="color:gray">(Іван Котляревський, I, 1952, 220)</span>;<br />
+            Уживається як лайливе слово. <i>Тепер він знає, хто коні бере.. А, злодію, коноводе, харцизе проклятий! Не минеш ти тепер Денисових рук!.. </i> <span style="color:gray">(Борис Грінченко, II, 1963, 255)</span>;<br />
+            <i>[Бобренчиха:] Ах ти харцизе, розбишако клятий! </i> <span style="color:gray">(Володимир Самійленко, II, 1958, 78)</span>;<br />
+            <small><a href="http://sum.in.ua/p/11/27/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 27.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЦВ<span class="stressed">І</span><span class="stress">́</span>КЕР</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, застаріле</span></i>.
+            Рід окулярів, які закріплюються за допомогою пружинки на переніссі; пенсне.<br />
+            <i>Відчинилися двері і ввійшов товстенький добродій з чорними вусами та з цвікером на носі </i> <span style="color:gray">(Борис Грінченко, I, 1963, 539)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/185/2">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 185.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ц<span class="stressed">Е</span><span class="stress">́</span>РА</strong>, ~и,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.
+            Колір обличчя.<br />
+            <i>І перевізчик тут явився, Як циган, смуглой цери був, Од сонця ввесь він попалився </i> <span style="color:gray">(Іван Котляревський, I, 1952, 130)</span>;<br />
+            <i>[Сабіна (до Йоганни, облесливо):] Твоя рабиня вже доложить хисту: всі зморщечки отут попри очицях, навколо вустоньків і між брівками чудово замалює, зробить церу таку свіженьку, як була колись! </i> <span style="color:gray">(Леся Українка, III, 1952, 170)</span>;<br />
+            <i>— Подобається тобі твоя друкарка? — ..Зоня? ..Не має гарної цери... </i> <span style="color:gray">(Ірина Вільде, III, 1968, 331)</span>;<br />
+            <small><a href="http://sum.in.ua/p/11/201/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 201.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЦЕР<span class="stressed">А</span><span class="stress">́</span>ТА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.
+            Те саме, що клейонка.<br />
+            <i>Пан Пшестшельський довго ще сидів нерухомо і думав. Сльози давно перестали плисти з очей, тілько спора калюжка їх ясніла перед ним на цераті </i> <span style="color:gray">(Іван Франко, III, 1950, 294)</span>;<br />
+            <i>«Кумпан» сидів у кухні за столом, покритим картатою цератою </i> <span style="color:gray">(Павло Загребельний, Шепіт, 1966, 186)</span>;<br />
+            <i>Крізь подвійні, оббиті цератою двері чулося дедалі густіше гудіння голосів </i> <span style="color:gray">(Семен Журахович, Опов., 1956, 150)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/201/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 201.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЧАПР<span class="stressed">А</span><span class="stress">́</span>К</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            <i><span style="color:green">спеціальне слово</span></i>. Найтовстіша і найміцніша частина шкури тварини, з якої виготовляють шкіру для підметок і для технічних потреб.<br />
+            1. <i>Раніше сортування шкіри провадилося вручну. Якщо врахувати, що один чапрак важить до десяти кілограмів, то можна собі уявити, скільки фізичної праці мусили витрачати робітники </i> <span style="color:gray">(Вечірній Київ, 9.III 1961, 1)</span>.<br />
+            2. Вовняна підстилка під кінське сідло<br />
+            <i>Умиюсь — дощами; утрусь — чапраком; А вичеше — терен колючий </i> <span style="color:gray">(Левко Боровиковський, Тв., 1957, 88)</span>;<br />
+            <i>Для ознайомлення лишили Назруллу спочатку при штабі Кривоноса. Ходив біля коней, лагодив чапраки до сідел, стріляв з лука, яким володів досконало </i> <span style="color:gray">(Іван Ле, Хмельницький, I, 1957, 356)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/268/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 268.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЧВ<span class="stressed">А</span><span class="stress">́</span>Л</strong>, ~у,
+            <i><span style="color:green">чоловічий рід</span></i>.
+            Швидкий біг навскач; галоп.<br />
+            <i>При боці хиталась у такт чвалові шабля </i> <span style="color:gray">(Петро Панч, О. Пархом., 1939, 159)</span>;<br />
+            <i>Злісною каламуттю виповнювався його погляд, і ледве-ледве помітно здригали ніздрі, як у нервового коня, що передчуває скажений чвал </i> <span style="color:gray">(Леонід Смілянський, Зустрічі, 1936, 128)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/286/2">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 286.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЧЕК<span class="stressed">А</span><span class="stress">́</span>Н</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.<br />
+            1. <i><span style="color:green">військова справа, історія</span></i>. Старовинна ручна зброя, що являє собою загострений молот з довгим держаком (використовувалася перев. для удару по голові); келеп.<br />
+            <i>Не піддавалися вони [двері] ані шаблям, ані списам, ані чеканам </i> <span style="color:gray">(Зінаїда Тулуб, Людолови, II, 1957, 127)</span>.<br />
+            2.  Інструмент для чеканення, який нагадує тупе зубило; карбівка. <i>Сидить Андрій Васильович у майстерні, виконує чекани найрізноманітніших конфігурацій. Бо для кожного штриха — новий чекан </i> <span style="color:gray">(Радянська Україна, 10.I 1969, 4)</span>.<br />
+            3. <i><span style="color:green">діалектне</span></i>. Кирка.<br />
+            <small><a href="http://sum.in.ua/p/11/290/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 290.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ШАЛЬГ<span class="stressed">А</span><span class="stress">́</span></strong>, ~и,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.
+            Скаженість, шаленство.<br />
+            <i>— А тобі що, Бовдуре? — спитав він. — Шальга на тебе находить, та хочеш людей кусати, чи що? </i> <span style="color:gray">(Іван Франко, I, 1955, 301)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/401/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 401.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Ш<span class="stressed">А</span><span class="stress">́</span>НЦІ</strong>, ~ів,
+            <i><span style="color:green">множина</span></i>.<br />
+            1. <i><span style="color:green">військова справа</span></i>. Земляні укріплення у вигляді ровів з насипом; окопи.<br />
+            <i>Боплан відзначав, що 100 козаків з успіхом витримували бій проти 1000 татар під прикриттям зв\'язаних возів.. і викопаних між ними шанців (окопів) </i> <span style="color:gray">(Історія УРСР, І, 1953, 165)</span>;<br />
+            <i>Ще не закінчилися роботи коло шанців і окопів, як почувся реє ворожих гармат </i> <span style="color:gray">(Наталія Кобринська, Вибр., 1954, 202)</span>;<br />
+            <i>Партизанська піхота.. нарила землі й лежала вже в шанцях, готуючись до відсічі </i> <span style="color:gray">(Юрій Яновський, I, 1958, 152)</span>;<br />
+            <i>Розпалений боєм лейтенант Макаренко перестрибнув через шанець </i> <span style="color:gray">(Петро Панч, В дорозі, 1959, 119)</span>.<br />
+            2. <i><span style="color:green">спеціальне слово</span></i>. Цегляні та інші підпорки (переважно в печі).<br />
+            <i>Лежак кладуть на шанці — цеглини, поставлені через певні проміжки на ребро </i> <span style="color:gray">(Овочівництво, 1956, 169)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/406/2">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 406.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ШАПЛ<span class="stressed">И</span><span class="stress">́</span>К</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.<br />
+            Невисока широка дерев\'яна посудина, що має вигляд зрізаної бочки.<br />
+            <i>В кожнім льоху навалено було стільки бочок і барил, що трудно було й повернутися, а в головнім.. стояв посередині ще величезний шаплик, сповнений доверху мушкетним порохом </i> <span style="color:gray">(Михайло Старицький, Облога.., 1961, 79)</span>;<br />
+            <i>Розпалила [мати] тріски, зігріла окропу, щоб змити мені голову, внесла шаплик і наказала скидати все і лізти в луг </i> <span style="color:gray">(Михайло Чабанівський, Катюша, 1960, 97)</span>;<br />
+            <i>Поливали грядки. На перехресті стежок стояв шаплик великий з водою </i> <span style="color:gray">(Андрій Головко, I, 1957, 182)</span>;<br />
+            *У порівняннях. <i>По дорозі наш вожатий Вчив, які гриби збирати: — .. Цей, пузатий, як шаплик, Зветься — білий, боровик! </i> <span style="color:gray">(Іван Нехода, Ми живемо.., 1960, 100)</span>;<br />
+            Чан для чинення шкіри, зоління білизни і т. ін. <i>Намочили шкури у таких здорових шапликах, мокнуть ті шкури та й мокнуть </i> <span style="color:gray">(Панас Мирний, I, 1954, 222)</span>;<br />
+            <i>В хаті.. Супрун ледве не задихнувся, бо тут же під полом були вкопані чинбарські шаплики і зільник </i> <span style="color:gray">(Михайло Стельмах, II, 1962, 114)</span>;<br />
+            <i>Обоє були багато далі мріями, ніж оця мокра пральня з шапликами та ваганами </i> <span style="color:gray">(Ле; Вибр., 1939, 175)</span>;<br />
+            Посудина з ручками для носіння рідини; цебер, відро. <i>Піймали Щуку молодці Та в шаплиці Гуртом до суду притаскали </i> <span style="color:gray">(Леонід Глібов, Вибр., 1957, 74)</span>.<br />
+            <i>Чоловіки, правда, зосталися... бо зосталось ще трохи у шаплику горілки. Незабаром і вони, скінчивши, розійшлись </i> <span style="color:gray">(Панас Мирний, IV, 1955, 164)</span>.<br />
+            <i>На мент тільки плигнула перед очима чорна фігура.. і вже простягла людям шаплик вогню [спирт], що курився як серце, тільки що вирване з грудей. — Пийте! </i> <span style="color:gray">(Михайло Коцюбинський, II, 1955, 92)</span>.<br />
+            Діжечка для кімнатних квітів. <i>На балконах недвижно стояли олеандри в дерев\'яних шапликахи </i> <span style="color:gray">(Іван Франко, II, 1950, 306)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/409/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 409.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЩАБ<span class="stressed">Е</span><span class="stress">́</span>ЛЬ</strong>, щабля,
+            <i><span style="color:green">чоловічий рід</span></i>.<br />
+            1. Поперечний (горизонтальний) брусок, планка в драбині.<br />
+            <i>— Якого ти нечистого полохаєш наших курей! — крикнув Лаврін, стоячи на щаблі </i> <span style="color:gray">(Нечуй-Левицький, II, 1956, 359)</span>.<br />
+            2. <i><span style="color:green">застаріле</span></i>. Східець.<br />
+            <i>Сходить [Іфігенія] знов додолу і сідає на найнижчому щаблі сходів, під кипарисом </i> <span style="color:gray">(Леся Українка, I, 1951, 161)</span>.<br />
+            3. <i><span style="color:green">переносне значення</span></i>. Етап, стадія розвитку, здійснення чого-небудь.<br />
+            <i>Говорив [Павло] це таким тоном, що треба було догадуватись, буцім він переступив уже перші щаблі до письма </i> <span style="color:gray">(Лесь Мартович, Тв., 1954, 236)</span>.<br />
+            4. Кожний звук музичного звукоряду, гами, ладу.<br />
+            <i>В українській народній музиці, побудованій на діатонічній основі, важливу роль відіграють побічні щаблі ладу </i> <span style="color:gray">(Народна творчість та етнографія, 5, 1967, 55)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/570/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 570.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЩАДН<span class="stressed">И</span><span class="stress">́</span>ЦЯ</strong>, ~і,
+            <i><span style="color:green">жіночий рід, діалектне</span></i>.<br />
+            Ощадна каса.<br />
+            <i>— На економічному полі в сих днях, У банках, щадницях, спілках, копальнях Чекає нас праця подвійна </i> <span style="color:gray">(Іван Франко, XII, 1953, 355)</span>;<br />
+            <i>Задумала вона зібрати трохи грошенят, однести їх до міської щадниці </i> <span style="color:gray">(Ольга Кобилянська, III, 1956, 468)</span>;<br />
+            <small><a href="http://sum.in.ua/p/11/571/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 571.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>Щ<span class="stressed">Е</span><span class="stress">́</span>БЕТ</strong>, ~у,
+            <i><span style="color:green">чоловічий рід</span></i>.<br />
+            1. Спів деяких птахів (ластівок, солов\'їв, жайворонків, щиглів і т. ін.).<br />
+            <i>В різні фарби одягалися квітки, І до гнізд злітались з щебетом пташки </i> <span style="color:gray">(Михайло Старицький, Облога.., 1961, 79)</span>.<br />
+            2. <i><span style="color:green">переносне значення</span></i>. Швидка, жвава мова (перев. жінок і дітей).<br />
+            <i>Сутінки ллються проти ночі; Женці прибрались за пори, Спинились щебети жіночі, І плач, і регіт дітвори </i> <span style="color:gray">(Павло Грабовський, I, 1959, 448)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/576/2">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 576.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong><span class="stressed">Ю</span><span class="stress">́</span>БКА</strong>, и,
+            <i><span style="color:green">жіночий рід</span></i>.<br />
+            1. <i><span style="color:green">діалектне</span></i>. Спідниця.<br />
+            <i>А що? одрізати тобі на спідницю чи на юбку? — спитав Ястшембський в молодиці </i> <span style="color:gray">(Нечуй-Левицький, II, 1956, 44)</span>;<br />
+            <i>Одіта вона була у демікотонну юбку й спідницю </i> <span style="color:gray">(Панас Мирний, I, 1954, 165)</span>.<br />
+            2. <i><span style="color:green">спеціальне слово</span></i>. Бокові стінки (або нижня частина їх) якогось циліндричного виробу.<br />
+            <i>Ізолятори встановлюють на спеціальних крюках і штирях, але тільки так, щоб головка їх була зверху, а юбка внизу </i> <span style="color:gray">(Монтаж і ремонт.. електрообладнання, 1956, 19)</span>;<br />
+            <i>Юбка поршня. </i><br />
+            <small><a href="http://sum.in.ua/p/11/611/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 611.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЮВІЛ<span class="stressed">Я</span><span class="stress">́</span>Р</strong>, ~а,
+            <i><span style="color:green">чоловічий рід</span></i>.<br />
+            Особа, установа, місто і т. ін., ювілей яких відзначають, святкують.<br />
+            <i>Ювіляр підняв келих за свою дружину і тут же підніс їй іменинний подарунок </i> <span style="color:gray">(Юрій Мокрієв, Сто.., 1961, 95)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/612/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 612.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong>ЮГ<span class="stressed">А</span><span class="stress">́</span></strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.<br />
+            1. Те саме, що імла.<br />
+            <i>Палке небо, жовтувата Недвижима пилюга. Млява спека й тьмянувата, Де не глянеш, скрізь юга </i> <span style="color:gray">(Іван Манжура, Тв., 1955, 72)</span>;<br />
+            <i>Сонце.. витріщилося зверху.. Понад озером закурилася легенька синяста юга </i> <span style="color:gray">(Дніпрова Чайка, Тв., 1960, 115)</span>;<br />
+            <i>Навкруги весь степ як у тумані од юги </i> <span style="color:gray">(Андрій Головко, II, 1957, 224)</span>.<br />
+            2. Снігова буря; завірюха, хурделиця.<br />
+            <i>А все як давнє спогадаю, То воскресає і воно: Та люта ніч, юга холодна... </i> <span style="color:gray">(Микола Чернявський, Поезії, 1959, 94)</span>;<br />
+            Сніг, що переноситься низовим вітром. <i>Вітер шаленів. Він люто здував з горбів суху, колючу югу, болісно бив нею в обличчя, сипав під ноги </i> <span style="color:gray">(Володимир Бабляк, Вишневий сад, 1960, 342)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/612/2">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 612.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong><span class="stressed">Я</span><span class="stress">́</span>БЕДА</strong>, и,
+            <i><span style="color:green">жіночий рід</span></i>.<br />
+            1. <i><span style="color:green">жіночий рід, застаріле</span></i>. Наклеп, обмова, поширювані з метою знеславити, зганьбити кого-, що-небудь.<br />
+            <i>— Так, так... і рука Порохова... — сказав [Шавкун] наче сам до себе і став читати. Кожного кидало то в огонь, то в холод од тієї ябеди </i> <span style="color:gray">(Панас Мирний, I, 1949, 388)</span>;<br />
+            Прохання, заява і т. ін. <i>З пірцем ходить та ябеди за чвертку горілки пише </i> <span style="color:gray">(Словник Грінченка)</span>.<br />
+            2. <i><span style="color:green">чоловічий і жіночий рід, розмовне</span></i>. Той (та), хто зводить наклеп на кого-небудь, обмовляє когось, доносить комусь на когось.<br />
+            <i>Серце Рошкевича болісно стислось. Он що! Значить, хтось написав донос на нього. Якийсь знайшовсь-таки ябеда і написав </i> <span style="color:gray">(Петро Колесник, Терен.., 1959, 269)</span>;<br />
+            <i>— Ах, ти ж ябеда, — казала мама, — тебе варто було й насправді нашльопати гарненько! </i> <span style="color:gray">(Юрій Яновський, II, 1954, 109)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/618/2">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 618.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong><span class="stressed">Я</span><span class="stress">́</span>БЕДНИК</strong>, ~а,
+            <i><span style="color:green">чоловічий рід, розмовне</span></i>.<br />
+            Той, хто зводить наклеп на кого-небудь, обмовляє когось, доносить комусь на когось.<br />
+            <i>— Знаєте що, — зашавкотів він. — ..Треба дізнатись, хто писав жалобу... Коли справді Порох — тоді нічого й казати... Ябедник писав! Хто повірить ябедникові? </i> <span style="color:gray">(Панас Мирний, I, 1949, 387)</span>;<br />
+            <i>Ось і Брикун якраз виходить з похилої старої хати. Одяг, постать, хода, — достойність! не впізнати колишнього першого ябедника і склочника </i> <span style="color:gray">(Олександр Довженко, Зач. Десна, 1957, 541)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/619/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 619.</a></small>
+        </p>
+        ]]>
+        </item>
+
+        <item>
+        <![CDATA[
+        <p align="justify">
+            <strong><span class="stressed">Я</span><span class="stress">́</span>ВА</strong>, ~и,
+            <i><span style="color:green">жіночий рід</span></i>.<br />
+            1. Частина акту, дії драматичного твору, в якій склад виконавців лишається незмінним.<br />
+            <i>Багато працював Карпенко-Карий.. над драмою «Наймичка», особливо над заключною явою IV дії, сценою зустрічі Цокуля з адвокатом </i> <span style="color:gray">(Тобілевич, Життя Саксаганського, 1957, 94)</span>;<br />
+            <i>Є се [«Справа в селі Клекотині»] довгий ряд діалогів та сцен без драматичної зав\'язки і розв\'язки, без поділу на акти і яви </i> <span style="color:gray">(Іван Франко, XVI, 1955, 242)</span>;<br />
+            <i>Це — п\'ятий акт, остання ява... </i> <span style="color:gray">(Володимир Сосюра, I, 1957, 401)</span>.<br />
+            2. Реальна дійсність; не сон, не мрія, не марення.<br />
+            <i>— Зриваюся, до вікна, дивлюся на сонце — вже геть з полудня.. Чи то сон, чи ява? </i> <span style="color:gray">(Микола Чернявський, Поезії, 1959, 94)</span>;<br />
+            <i>О ніч! О любощі співочі! О чародійні в яві сни На святі першої весни! </i> <span style="color:gray">(Михайло Старицький, Поет. тв., 1958, 26)</span>;<br />
+            <i>І щось бадьоре сниться — А може, то ява, — Немов лице в криниці Чудовно ожива </i> <span style="color:gray">(Максим Рильський, I, 1960, 239)</span>;<br />
+            <i>У мрії все рівне: й сьогодні, й минуле, і щастя, і вічність, і мить. Та в яві дитинство пройшло, промайнуло, лиш серце ще й досі болить </i> <span style="color:gray">(Володимир Сосюра, I, 1957, 128)</span>.<br />
+            <small><a href="http://sum.in.ua/p/11/620/1">© Словник української мови: в 11 томах. — Том 11, 1980. — Стор. 620.</a></small>
+        </p>
+        ]]>
+        </item>
+
     </string-array>
 
-    <string-array name="rarely_used_words">
-        <item>АБАЖУР</item>
-        <item>АБИЩИЦЯ</item>
-        <item>АБСЕНТЕЇЗМ</item>
-        <item>АБСОЛЮТ</item>
-        <item>АБСТРАГУВАТИСЯ</item>
-    </string-array>
     <string name="title_activity_main2">Main2Activity</string>
 </resources>
